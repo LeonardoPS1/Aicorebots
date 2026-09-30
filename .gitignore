@@ -6,3 +6,8 @@ node_modules/
 
 # config local del agente, no es parte del sitio
 .opencode/
+
+# credenciales de infraestructura, nunca versionadas
+.dokploy.key
+*.pem
+id_ed25519*
