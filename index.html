@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Aicore Agency: agentes de IA que atienden, agendan y hacen seguimiento</title>
+<meta name="description" content="Aicore Agency diseña y opera agentes de IA para clínicas y negocios que atienden por WhatsApp. AiCoreMed, Captación 360, Portal del Paciente y AicoreLink, sobre infraestructura propia. Viña del Mar, Chile.">
+<meta name="theme-color" content="#0A2342">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aicore Agency: tu negocio, con pulso propio">
+<meta property="og:description" content="Agentes de IA que atienden por WhatsApp, agendan y hacen seguimiento, para que tu equipo se dedique a lo que solo una persona puede hacer.">
+<meta property="og:url" content="https://aicorebots.com">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://aicorebots.com">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<meta property="og:image" content="https://aicorebots.com/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://aicorebots.com/assets/og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","@id":"https://aicorebots.com/#org","name":"Aicore Agency","url":"https://aicorebots.com","logo":"https://aicorebots.com/assets/logo.svg","description":"Agentes de IA y automatización para clínicas y negocios que atienden por WhatsApp.","address":{"@type":"PostalAddress","addressLocality":"Viña del Mar","addressCountry":"CL"},"sameAs":["https://iapo.cl"]},
+{"@type":"WebSite","@id":"https://aicorebots.com/#website","url":"https://aicorebots.com","name":"Aicore Agency","inLanguage":"es-CL","publisher":{"@id":"https://aicorebots.com/#org"}},
+{"@type":"Service","@id":"https://aicorebots.com/#svc-aicoremed","name":"AiCoreMed","serviceType":"Software de gestión clínica con IA","url":"https://med.aicorebots.com","provider":{"@id":"https://aicorebots.com/#org"},"areaServed":{"@type":"Country","name":"Chile"}},
+{"@type":"Service","@id":"https://aicorebots.com/#svc-cap360","name":"Captación 360","serviceType":"Captación, conversión y retención de pacientes","url":"https://captacion360.aicorebots.com","provider":{"@id":"https://aicorebots.com/#org"},"areaServed":{"@type":"Country","name":"Chile"}},
+{"@type":"Service","@id":"https://aicorebots.com/#svc-portal","name":"Portal del Paciente","serviceType":"Portal de pacientes accesible por WhatsApp","url":"https://consultorio.aicorebots.com/portal","provider":{"@id":"https://aicorebots.com/#org"},"areaServed":{"@type":"Country","name":"Chile"}},
+{"@type":"Service","@id":"https://aicorebots.com/#svc-link","name":"AicoreLink","serviceType":"Mensajería unificada con agentes de IA","url":"https://aicorebots.com/productos/#aicorelink","provider":{"@id":"https://aicorebots.com/#org"},"areaServed":{"@type":"Country","name":"Chile"}},
+{"@type":"Service","@id":"https://aicorebots.com/#svc-iapo","name":"iapo.cl","serviceType":"Comunidad y contenido sobre IA aplicada","url":"https://iapo.cl","provider":{"@id":"https://aicorebots.com/#org"},"areaServed":{"@type":"Country","name":"Chile"}}
+]}
+</script>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<div class="prog" id="prog" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="bar">
+    <a class="brand" href="#top" aria-label="Aicore Agency, inicio">
+      <img class="brand-img" src="assets/logo.svg" alt="Aicore Agency" width="1514" height="778">
+    </a>
+    <nav class="links" aria-label="Principal">
+      <a href="productos/">Productos</a>
+      <a href="#sistema">Sistema</a>
+      <a href="#metodo">Método</a>
+      <a href="#infraestructura">Infraestructura</a>
+    </nav>
+    <a class="btn p mag" href="#contacto">Hablemos</a>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="top">
+  <canvas id="gl" aria-hidden="true"></canvas>
+  <div class="wrap hero-in">
+    <div>
+      <h1 data-wave>Tu negocio, con pulso propio.</h1>
+      <p class="lede">Agentes de IA que atienden por WhatsApp, agendan y hacen seguimiento, para que tu equipo se dedique a lo que solo una persona puede hacer.</p>
+      <div class="actions">
+        <a class="btn p mag" href="#contacto">Agendar una conversación</a>
+        <a class="btn g mag" href="#ecosistema">Ver lo que operamos</a>
+      </div>
+      <p class="meta">Aicore Agency trabaja desde Viña del Mar, Chile. Construimos y operamos nuestros propios sistemas en producción, sobre infraestructura propia.</p>
+    </div>
+    <aside class="chat" aria-label="Ejemplo de conversación con un agente de Aicore">
+      <div class="chat-h">
+        <span class="av" aria-hidden="true">A</span>
+        <div><strong>Recepción de clínica (demo)</strong><small>Agente en línea</small></div>
+      </div>
+      <div class="chat-b" id="chat" aria-live="off"></div>
+      <div class="chat-f">Conversación de ejemplo. El agente agenda, confirma y avisa sin intervención humana.</div>
+    </aside>
+  </div>
+</section>
+
+<!-- DOLORES -->
+<section class="sec eco dolores" id="dolores">
+  <div class="wrap">
+    <p class="eyebrow">Lo que ya está pasando</p>
+    <h2>Seis formas en que tu negocio pierde clientes sin darte cuenta</h2>
+    <p class="sub">Números reales, de negocios reales. Si alguno te resulta familiar, es exactamente el problema que resolvemos.</p>
+    <div class="pains">
+      <article>
+        <b>01</b>
+        <h3>El mensaje que nadie responde</h3>
+        <p>El 68% de las consultas llegan fuera del horario laboral. ¿Las estás perdiendo todas?</p>
+      </article>
+      <article>
+        <b>02</b>
+        <h3>Los cinco minutos que lo deciden todo</h3>
+        <p>El cliente que no recibe respuesta en cinco minutos busca otra opción. Y la encuentra.</p>
+      </article>
+      <article>
+        <b>03</b>
+        <h3>La tarea que se repite todos los días</h3>
+        <p>Preguntas iguales, respuestas iguales, todos los días. Horas de tu equipo en respuestas que un agente puede dar al instante.</p>
+      </article>
+      <article>
+        <b>04</b>
+        <h3>El dato que vive en un papel</h3>
+        <p>Fichas clínicas en papel: sin historial, sin métricas, sin continuidad. El conocimiento del paciente se pierde con cada consulta.</p>
+      </article>
+      <article>
+        <b>05</b>
+        <h3>El paciente que se olvidó</h3>
+        <p>El 80% olvida su hora sin un recordatorio. El ausentismo puede restar hasta 30% de los ingresos de una consulta.</p>
+      </article>
+      <article>
+        <b>06</b>
+        <h3>Las herramientas que nunca se hablan</h3>
+        <p>Agenda, fichas y cobros en sistemas separados. El seguimiento se pierde entre uno y otro.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTOS -->
+<section class="sec eco" id="ecosistema">
+  <div class="wrap">
+    <h2>Lo que construimos y operamos nosotros mismos</h2>
+    <p class="sub">Cada producto resuelve una parte del mismo problema: que nadie se quede sin respuesta. Abre uno para ver cómo funciona.</p>
+    <div class="rows">
+
+      <details class="row" name="eco" open>
+        <summary>
+          <span class="r-name">AiCoreMed</span>
+          <span class="r-tag">Gestión clínica con IA para médicos independientes y clínicas.</span>
+          <span class="r-ico" aria-hidden="true"></span>
+        </summary>
+        <div class="r-body">
+          <div>
+            <ul>
+              <li>Agenda, fichas clínicas y equipo en un solo lugar.</li>
+              <li>Varios consultorios en la misma plataforma, cada uno con sus datos aislados.</li>
+              <li>Un asistente de IA que ayuda al equipo a resumir, redactar y encontrar información.</li>
+            </ul>
+            <a class="tl" href="https://med.aicorebots.com" rel="noopener">Abrir med.aicorebots.com</a> <a class="tl sec2" href="productos/#aicoremed">Ver detalle</a>
+          </div>
+          <div class="viz">
+            <svg class="ecg" viewBox="0 0 320 120" role="img" aria-label="Línea de pulso animada">
+              <path class="base" d="M0 70H60l8-6 8 6H100l7-46 12 66 7-30H170l8-6 8 6H230l7-46 12 66 7-30H320" pathLength="1"/>
+              <path class="run" d="M0 70H60l8-6 8 6H100l7-46 12 66 7-30H170l8-6 8 6H230l7-46 12 66 7-30H320" pathLength="1"/>
+            </svg>
+          </div>
+        </div>
+      </details>
+
+      <details class="row" name="eco">
+        <summary>
+          <span class="r-name">Captación 360</span>
+          <span class="r-tag">Pacientes nuevos cada mes, con gestión y retención automatizadas.</span>
+          <span class="r-ico" aria-hidden="true"></span>
+        </summary>
+        <div class="r-body">
+          <div>
+            <ul>
+              <li>Anuncios en Meta que abren una conversación de WhatsApp, no un formulario que nadie responde.</li>
+              <li>Un agente que califica al interesado, responde dudas y ofrece horas al instante.</li>
+              <li>Cada hora agendada queda ligada a la campaña que la originó, para medir el costo real por paciente.</li>
+            </ul>
+            <a class="tl" href="https://captacion360.aicorebots.com" rel="noopener">Abrir captacion360.aicorebots.com</a> <a class="tl sec2" href="productos/#captacion-360">Ver detalle</a>
+          </div>
+          <div class="viz">
+            <div class="funnel" role="img" aria-label="Embudo ilustrativo de captación">
+              <div style="--n:0"><span>Anuncio en Meta</span><i style="--w:100%"></i></div>
+              <div style="--n:1"><span>Conversación en WhatsApp</span><i style="--w:72%"></i></div>
+              <div style="--n:2"><span>Hora agendada</span><i style="--w:48%"></i></div>
+              <div style="--n:3"><span>Paciente que vuelve</span><i style="--w:32%"></i></div>
+              <small>Esquema ilustrativo del recorrido.</small>
+            </div>
+          </div>
+        </div>
+      </details>
+
+      <details class="row" name="eco">
+        <summary>
+          <span class="r-name">Portal del Paciente</span>
+          <span class="r-tag">Citas, recetas y exámenes en el celular del paciente, entrando desde WhatsApp.</span>
+          <span class="r-ico" aria-hidden="true"></span>
+        </summary>
+        <div class="r-body">
+          <div>
+            <ul>
+              <li>Sin usuario ni contraseña: el paciente entra con su número de WhatsApp.</li>
+              <li>Ve sus próximas citas y pide reprogramar; la solicitud llega a la clínica por WhatsApp.</li>
+              <li>Recetas y exámenes disponibles después de la consulta.</li>
+            </ul>
+            <a class="tl" href="https://consultorio.aicorebots.com/portal" rel="noopener">Abrir el portal</a> <a class="tl sec2" href="productos/#portal-paciente">Ver detalle</a>
+          </div>
+          <div class="viz">
+            <div class="phone" role="img" aria-label="Pantalla de ingreso desde WhatsApp">
+              <p>Confirma tu acceso desde WhatsApp</p>
+              <div class="otp"><b style="--n:0">4</b><b style="--n:1">8</b><b style="--n:2">1</b><b style="--n:3">9</b><b style="--n:4">2</b><b style="--n:5">7</b></div>
+              <div class="go">Ver mis citas</div>
+            </div>
+          </div>
+        </div>
+      </details>
+
+      <details class="row" name="eco">
+        <summary>
+          <span class="r-name">AicoreLink <span class="badge">En construcción</span></span>
+          <span class="r-tag">Mensajería con agentes para WhatsApp, correo y redes, que se activa por cliente.</span>
+          <span class="r-ico" aria-hidden="true"></span>
+        </summary>
+        <div class="r-body">
+          <div>
+            <ul>
+              <li>Voz y texto en WhatsApp, respuestas de correo y mensajes de redes en una sola bandeja.</li>
+              <li>Cada cliente enciende solo los módulos que necesita.</li>
+              <li>Se despliega por cliente sobre nuestra propia infraestructura.</li>
+            </ul>
+            <a class="tl" href="productos/#aicorelink">Ver detalle</a>
+          </div>
+          <div class="viz">
+            <div class="orbit" role="img" aria-label="AicoreLink conecta WhatsApp, correo y redes">
+              <span class="core">Aicore<br>Link</span>
+              <i style="--k:0"><em>WhatsApp</em></i>
+              <i style="--k:1"><em>Correo</em></i>
+              <i style="--k:2"><em>Redes</em></i>
+            </div>
+          </div>
+        </div>
+      </details>
+
+      <details class="row" name="eco">
+        <summary>
+          <span class="r-name">iapo.cl</span>
+          <span class="r-tag">Tips, prompts y repositorios de IA en español para aprender haciendo.</span>
+          <span class="r-ico" aria-hidden="true"></span>
+        </summary>
+        <div class="r-body">
+          <div>
+            <ul>
+              <li>Prompts listos para copiar y adaptar a tu trabajo.</li>
+              <li>Skills y repositorios que usamos a diario, explicados sin jerga.</li>
+              <li>Una comunidad para quienes quieren usar IA en su negocio.</li>
+            </ul>
+            <a class="tl" href="https://iapo.cl" rel="noopener">Abrir iapo.cl</a> <a class="tl sec2" href="productos/#iapo">Ver detalle</a>
+          </div>
+          <div class="viz">
+            <div class="pcard" role="img" aria-label="Ejemplo de prompt">
+              <small>Prompt de ejemplo</small>
+              <div class="typed">Actúa como recepcionista de una clínica.</div>
+              <div class="typed l2">Responde en máximo tres líneas.</div>
+            </div>
+          </div>
+        </div>
+      </details>
+
+    </div>
+  </div>
+  <div class="wrap" style="margin-top:44px"><a class="btn g mag" href="productos/">Ver todos los productos en detalle</a></div>
+</section>
+
+<!-- SISTEMA -->
+<section class="sec sys sheet" id="sistema">
+  <div class="wrap">
+    <h2>De un anuncio a un paciente que vuelve</h2>
+    <p class="sub">No vendemos un software suelto. Conectamos cuatro etapas para que cada persona que escribe tenga una respuesta, y cada respuesta tenga un resultado medible.</p>
+    <div class="pipe" id="pipe">
+      <svg id="pipe-svg" viewBox="0 0 1200 160" aria-hidden="true"></svg>
+      <div class="cols">
+        <div class="col"><h3>Captación</h3><p>Anuncios que llevan a la persona correcta directo a una conversación.</p><small>Meta Ads y Click-to-WhatsApp</small></div>
+        <div class="col"><h3>Conversión</h3><p>Un agente responde en segundos, resuelve dudas y ofrece horas.</p><small>n8n, modelos locales y Meta Cloud API</small></div>
+        <div class="col"><h3>Gestión</h3><p>Agenda, fichas y equipo ordenados, con cada cita ligada a su origen.</p><small>AiCoreMed</small></div>
+        <div class="col"><h3>Retención</h3><p>El paciente ve sus citas y documentos, y vuelve sin que nadie lo persiga.</p><small>Portal del Paciente</small></div>
+      </div>
+    </div>
+    <p class="foot"><a class="tl" href="https://captacion360.aicorebots.com" rel="noopener">Conocer Captación 360</a></p>
+  </div>
+</section>
+
+<!-- MÉTODO -->
+<section class="sec light sheet" id="metodo">
+  <div class="wrap">
+    <div class="method">
+      <div class="stick">
+        <h2>Cómo trabajamos</h2>
+        <p class="sub">Partimos por el proceso, no por la herramienta. Si automatizarlo no vale la pena, te lo decimos.</p>
+      </div>
+      <ol class="steps" id="steps">
+        <li><span class="n">1</span><h3>Diagnóstico</h3><p>Mapeamos dónde se pierden horas, pacientes y clientes, con tu equipo y tus datos reales.</p></li>
+        <li><span class="n">2</span><h3>Piloto funcional</h3><p>Levantamos un primer flujo que ya atiende mensajes de verdad, en semanas y no en trimestres.</p></li>
+        <li><span class="n">3</span><h3>Despliegue</h3><p>Conectamos WhatsApp, correo y agenda sobre infraestructura dedicada, con tu marca al frente.</p></li>
+        <li><span class="n">4</span><h3>Medición y ajuste</h3><p>Miramos leads, citas, asistencia y costo por cliente agendado. Si un número no se mueve, cambiamos el flujo.</p></li>
+      </ol>
+    </div>
+    <div class="prin">
+      <div><h3>Sin intermediarios</h3><p>Nos conectamos directo a las APIs oficiales y a modelos propios cuando conviene, así el costo y el control quedan de tu lado.</p></div>
+      <div><h3>Datos bajo resguardo</h3><p>Cada cliente vive aislado en nuestra infraestructura, no repartido entre servicios de terceros.</p></div>
+      <div><h3>Pensado para Latinoamérica</h3><p>Empezamos en Chile, con WhatsApp como canal principal y el español de la gente como lenguaje.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE AICORE -->
+<section class="sec eco about" id="sobre">
+  <div class="wrap">
+    <p class="eyebrow">Quiénes somos</p>
+    <h2>No instalamos software. Lo operamos.</h2>
+    <p class="sub">Aicore Agency es una agencia chilena que construye y opera agentes de IA para clínicas y negocios. No revendemos cajas negras: corre en servidores nuestros, con nuestros propios modelos y nuestro equipo al otro lado.</p>
+    <div class="prin">
+      <div><h3>Infraestructura propia</h3><p>Todo corre en servidores administrados por nosotros: contenedores, certificados y respaldos bajo nuestro control.</p></div>
+      <div><h3>IA local primero</h3><p>Los datos sensibles se procesan con modelos locales en infraestructura propia. Nada sale de tu servidor sin que lo decidas vos.</p></div>
+      <div><h3>Sistemas que se hablan</h3><p>Captación, gestión y retención comparten los mismos datos. Cada conversación deja un rastro medible, no una planilla que se pierde.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- INFRAESTRUCTURA -->
+<section class="sec infra sheet" id="infraestructura">
+  <div class="wrap infra-in">
+    <div>
+      <h2>Corre en servidores propios, no en una caja negra</h2>
+      <ul class="facts">
+        <li>Contenedores, certificados y respaldos administrados por nosotros.</li>
+        <li>Modelos de IA locales para lo sensible y APIs directas para lo que necesita más potencia.</li>
+        <li>Cada cambio se despliega y se prueba antes de llegar a tu equipo.</li>
+      </ul>
+    </div>
+    <div class="term" aria-label="Estado de los servicios (ilustración)">
+      <div class="term-h"><i></i><i></i><i></i></div>
+      <pre id="term" data-lines='["$ estado --servicios","<span class=ok>ok</span>  proxy         https con certificados automáticos","<span class=ok>ok</span>  automatización  editor, worker y runner","<span class=ok>ok</span>  modelos        ejecución local","<span class=ok>ok</span>  base de datos  multi-tenant","<span class=ok>ok</span>  colas y caché  en línea","<span class=ok>ok</span>  whatsapp       puerta de enlace conectada","<span class=dim>todo en orden</span>"]'></pre>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="cta sheet" id="contacto">
+  <div class="wrap">
+    <h2>¿Qué proceso te gustaría que funcione solo?</h2>
+    <p class="sub">Cuéntanos en una conversación de 20 minutos dónde se te va el tiempo. Te decimos con honestidad si vale la pena automatizarlo.</p>
+    <div class="actions">
+      <a class="btn p mag" href="https://wa.me/56975680702?text=Hola%2C%20quiero%20conversar%20sobre%20automatizar%20mi%20negocio" rel="noopener">Escribir por WhatsApp</a>
+      <a class="btn g mag" href="mailto:contacto@aicorebots.com">contacto@aicorebots.com</a>
+    </div>
+  </div>
+  <svg class="cta-line" id="cta-line" viewBox="0 0 1600 140" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M0 100H300l12-8 12 8H420l10-70 18 100 10-40H700l12-8 12 8H820l10-70 18 100 10-40H1100l12-8 12 8H1220l10-70 18 100 10-40H1600"/></svg>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-in">
+      <div>
+        <a class="brand" href="#top" style="color:#fff"><img class="brand-img" src="assets/logo.svg" alt="Aicore Agency" width="1514" height="778"></a>
+        <p style="margin-top:14px;max-width:24em">Agentes de IA y automatización para clínicas y negocios. Viña del Mar, Chile.</p>
+      </div>
+      <div><h4>Productos</h4><ul>
+        <li><a href="productos/">Todos los productos</a></li>
+        <li><a href="https://med.aicorebots.com" rel="noopener">AiCoreMed</a></li>
+        <li><a href="https://captacion360.aicorebots.com" rel="noopener">Captación 360</a></li>
+        <li><a href="https://consultorio.aicorebots.com/portal" rel="noopener">Portal del Paciente</a></li>
+        <li><a href="https://iapo.cl" rel="noopener">iapo.cl</a></li>
+      </ul></div>
+      <div><h4>Contacto</h4><ul>
+        <li><a href="https://wa.me/56975680702" rel="noopener">WhatsApp</a></li>
+        <li><a href="mailto:contacto@aicorebots.com">contacto@aicorebots.com</a></li>
+      </ul></div>
+      <div><h4>Legal</h4><ul>
+        <li><a href="privacidad/">Privacidad</a></li>
+        <li><a href="terminos/">Términos</a></li>
+        <li><a href="aviso-legal/">Aviso legal</a></li>
+      </ul></div>
+    </div>
+    <p class="legal">© 2026 Aicore Agency. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="assets/site.js" defer></script>
+</body>
+</html>
