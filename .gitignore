@@ -1,0 +1,8 @@
+.DS_Store
+Thumbs.db
+node_modules/
+*.zip
+.env
+
+# config local del agente, no es parte del sitio
+.opencode/
