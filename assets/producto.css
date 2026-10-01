@@ -1,0 +1,56 @@
+/* Rutas de producto: /productos/<slug>/
+   Se carga DESPUÉS de site.css y productos.css. Aquí viven solo las reglas de
+   marcado que no existe en ninguna otra página. Lo que ya resuelve site.css o
+   productos.css (.wrap .phead .doc .prose .feat .facts2 .st .cta .foot-in)
+   se reutiliza tal cual. */
+
+/* acento por producto, en el mismo mapa de colores que /productos/ */
+.page-aicoremed,
+.page-portal-paciente { --acc: var(--teal); }
+.page-captacion-360,
+.page-iapo { --acc: #6AA6FF; }
+.page-aicorelink { --acc: #F2B84B; }
+
+/* migas de pan visibles, espejo del BreadcrumbList del JSON-LD */
+.crumbs { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 9px; align-items: center; font: 500 .9rem/1 var(--f-b); color: #6F87A6; }
+.crumbs a { color: var(--steel); text-decoration: none; }
+.crumbs a:hover { color: #fff; }
+.crumbs i { font-style: normal; color: #6F87A6; }
+
+/* el estado del producto, como la insignia de /productos/ */
+.phead .st { margin-top: 28px; }
+
+/* las anclas no deben quedar bajo la barra fija */
+.doc h2[id], .doc .objecion[id] { scroll-margin-top: 104px; }
+
+/* índice de secciones de la página */
+.sidx { margin: 0 0 clamp(36px, 5vw, 56px); display: flex; flex-wrap: wrap; gap: 9px; padding-bottom: 4px; }
+.sidx a { padding: 8px 16px; border: 1px solid var(--hair); border-radius: 999px; color: var(--steel); text-decoration: none; font-size: .92rem; transition: color .2s, border-color .2s; }
+.sidx a:hover { color: #fff; border-color: var(--acc); }
+
+/* el primer párrafo responde a la objeción, no anuncia la función */
+.abre { margin-bottom: clamp(30px, 4vw, 44px) !important; padding-left: 22px; border-left: 3px solid var(--acc); font-size: clamp(1.12rem, 1.7vw, 1.35rem); line-height: 1.6; color: #E9F0F8; }
+
+/* lo que NO incluye: la sección que hace creíble todo lo demás */
+.limites { margin: 0 0 18px; padding: 24px 26px; border: 1px solid var(--hair); border-left: 3px solid var(--acc); border-radius: 18px; background: rgba(255, 255, 255, .025); }
+.limites h3 { margin-top: 0; display: flex; align-items: center; gap: 10px; font: 600 1.02rem/1.4 var(--f-b); color: #fff; }
+.limites h3::before { content: ""; width: 11px; height: 2px; background: var(--acc); }
+.limites p { margin-bottom: 12px; font-size: 1rem; color: #C7D5E6; }
+.limites p:last-child { margin-bottom: 0; }
+
+/* enlaces a los productos hermanos */
+.sibs { margin: 20px 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 13px; }
+.sibs a { display: grid; gap: 5px; padding: 18px 20px; border: 1px solid var(--hair); border-radius: 16px; background: rgba(255, 255, 255, .02); color: #fff; text-decoration: none; transition: border-color .2s; }
+.sibs a:hover { border-color: var(--acc); }
+.sibs b { font: 600 1rem/1.3 var(--f-b); color: #fff; }
+.sibs span { font-size: .9rem; line-height: 1.5; color: var(--steel); }
+
+/* la pregunta difícil, destacada del resto del texto */
+.objecion { margin: clamp(30px, 4vw, 44px) 0; padding: clamp(24px, 3vw, 32px); border: 1px solid var(--hair); border-radius: 22px; background: rgba(255, 255, 255, .03); }
+.objecion h2 { margin-top: 0 !important; }
+.objecion > p:first-of-type { color: #E9F0F8; }
+
+@media (max-width: 620px) {
+  .abre { padding-left: 16px; }
+  .limites { padding: 20px; }
+}
