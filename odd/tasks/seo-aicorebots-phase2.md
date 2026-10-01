@@ -67,7 +67,7 @@ This copy is derived from existing site content, not from direct hands-on produc
 - [x] **T09** `sitemap.xml` - five new URLs with real `lastmod`.
 - [x] **T10** `llms.txt` / `llms-full.txt` - register the new routes.
 - [x] **T11** Static verification pass.
-- [ ] **T12** Commit and push.
+- [x] **T12** Commit and push.
 
 ## Acceptance criteria
 
@@ -90,6 +90,10 @@ This copy is derived from existing site content, not from direct hands-on produc
 
 `verify_site.py` — 519 checks, ALL CHECKS PASSED. Repo-wide, not scoped to the five pages: every `href`/`src` of every `.html` resolved against disk, every `<loc>` in the sitemap resolved, every absolute URL and markdown route in `llms.txt` / `llms-full.txt` resolved. Confirms acceptance criteria 1, 7, 8, 9 statically.
 
+`verify_prod.py` — 125 checks against the live container, ALL PRODUCTION CHECKS PASSED. Confirms criteria 1, 2, 3, 4, 6, 7, 8, 9 against served bytes rather than disk: all five routes HTTP 200, descriptions 153-158 chars, canonicals absolute and self-referential, each `og:image` its own asset, `Service` + `WebPage` + `BreadcrumbList` present with a three-level breadcrumb, every relative asset 200, hub carries five route links plus five surviving anchors plus five `ItemList` canonicals, sitemap at 11 URLs all resolving, `llms-full.txt` at 22 separators of 80 and 13 route headings.
+
+Acceptance criterion 10 (`nginx -t` with no warnings) is still unverified: it needs container exec, and the VPS credential used earlier in this session was shredded as part of the hygiene sweep and is still pending rotation. It closes `cc58d0c`.
+
 ## Progress log
 
 - 2026-10-01 — nginx warning fixed and pushed as `cc58d0c` (`fix(nginx): drop duplicate text/html from gzip_types`). Awaiting container re-verify.
@@ -98,9 +102,14 @@ This copy is derived from existing site content, not from direct hands-on produc
 - 2026-10-01 — Title form decided: `<Name>: <benefit clause> | Aicore Agency`, no literal `Producto:` prefix, applied identically to all five.
 - 2026-10-01 — T08-T10 closed in `53105a4`, `eab58af`, `6d26005`. Hub `ItemList` repointed to canonical routes, five `Ver página completa` actions added, sitemap lists all five with `lastmod` 2026-10-01, `llms.txt` already carried the five routes and needed no change, `llms-full.txt` gained all five page bodies (552 lines) and its stale "routes not published" header note was corrected.
 
+- 2026-10-01 — T12 closed. Ten commits pushed as `df91cfa`; Dokploy rebuilt and served the new build within about two minutes. `verify_prod.py` then passed 125 checks against live bytes: five routes 200, correct canonicals, own `og:image` per route, three-level breadcrumbs, all relative assets resolving, hub with five links plus five surviving anchors, sitemap at 11 URLs, `llms-full.txt` structure intact.
+- 2026-10-01 — Operational gotcha: Cloudflare served a cached 404 for `assets/og-iapo.png` for several minutes after the deploy went live, because a probe against the pre-deploy build had already cached the miss. It resolved to 200 on revalidation with the correct `ETag` and `Content-Type: image/png`. Any post-deploy asset check must send `Cache-Control: no-cache` or a cache-buster, or a stale negative cache will read as a missing file.
 - 2026-10-01 — T11 closed. `verify_site.py` wrote 519 checks over the whole repo and passed: every internal link and asset path in every page resolves to a real file, every sitemap `<loc>` resolves, every route in both AI-readable files resolves, and the hub's five `#<slug>` anchors survive alongside the new canonical links.
 - 2026-10-01 — Credential hygiene sweep. Ten temp scripts under the harness temp directory carried a hardcoded VPS credential as a literal. All ten were shredded with `os.urandom()` overwrites plus `fsync` and deleted, never printing the value; a re-scan found zero remaining. `git log -p --all` and `git ls-files` were scanned with the same pattern and found nothing, so the credential never entered the repository. The value may still exist in harness transcripts or shell logs — rotating the secret is the remaining action.
 
 ## Next step
 
-T12 — push the nine commits, then re-verify in the Dokploy container (five HTTP 200s, assets, schema, `nginx -t` with no warnings) which also closes `cc58d0c`.
+All twelve tasks closed. Two items remain outside the feature, both owned by the maintainer:
+
+1. Rotate the VPS credential. It never entered the repository, and the ten temp scripts that held it were shredded, but the literal may survive in harness transcripts or shell history. Rotation is what actually closes the exposure.
+2. Verify acceptance criterion 10 by running `nginx -t` inside the deployed container, which also closes `cc58d0c`. Needs container access, currently unavailable because of item 1.
