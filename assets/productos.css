@@ -1,6 +1,6 @@
 /* Página /productos/ */
 .phero{position:relative;padding:clamp(130px,16vw,180px) 0 clamp(72px,9vw,120px);background:var(--abyss);overflow:hidden}
-.phero h1{font-size:clamp(2.8rem,7vw,6.6rem);max-width:11em}
+.phero h1{font-size:clamp(2.6rem,5.6vw,4.8rem);max-width:14em}
 .phero .lede{max-width:36em}
 
 /* mapa del ecosistema */
