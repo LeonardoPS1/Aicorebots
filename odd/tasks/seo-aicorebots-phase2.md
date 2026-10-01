@@ -66,7 +66,7 @@ This copy is derived from existing site content, not from direct hands-on produc
 - [x] **T08** `productos/index.html` - `ItemList` repointed, intros added, anchors preserved.
 - [x] **T09** `sitemap.xml` - five new URLs with real `lastmod`.
 - [x] **T10** `llms.txt` / `llms-full.txt` - register the new routes.
-- [ ] **T11** Static verification pass.
+- [x] **T11** Static verification pass.
 - [ ] **T12** Commit and push.
 
 ## Acceptance criteria
@@ -88,6 +88,8 @@ This copy is derived from existing site content, not from direct hands-on produc
 
 `llms-full.txt` structure re-verified after insertion — 13 route headings (8 original + 5 new), all 22 separators exactly 80 chars, every section `SEP / URL / SEP`, the two pre-existing inline URL references preserved, no CJK/Cyrillic, `¿` intact.
 
+`verify_site.py` — 519 checks, ALL CHECKS PASSED. Repo-wide, not scoped to the five pages: every `href`/`src` of every `.html` resolved against disk, every `<loc>` in the sitemap resolved, every absolute URL and markdown route in `llms.txt` / `llms-full.txt` resolved. Confirms acceptance criteria 1, 7, 8, 9 statically.
+
 ## Progress log
 
 - 2026-10-01 — nginx warning fixed and pushed as `cc58d0c` (`fix(nginx): drop duplicate text/html from gzip_types`). Awaiting container re-verify.
@@ -96,6 +98,9 @@ This copy is derived from existing site content, not from direct hands-on produc
 - 2026-10-01 — Title form decided: `<Name>: <benefit clause> | Aicore Agency`, no literal `Producto:` prefix, applied identically to all five.
 - 2026-10-01 — T08-T10 closed in `53105a4`, `eab58af`, `6d26005`. Hub `ItemList` repointed to canonical routes, five `Ver página completa` actions added, sitemap lists all five with `lastmod` 2026-10-01, `llms.txt` already carried the five routes and needed no change, `llms-full.txt` gained all five page bodies (552 lines) and its stale "routes not published" header note was corrected.
 
+- 2026-10-01 — T11 closed. `verify_site.py` wrote 519 checks over the whole repo and passed: every internal link and asset path in every page resolves to a real file, every sitemap `<loc>` resolves, every route in both AI-readable files resolves, and the hub's five `#<slug>` anchors survive alongside the new canonical links.
+- 2026-10-01 — Credential hygiene sweep. Ten temp scripts under the harness temp directory carried a hardcoded VPS credential as a literal. All ten were shredded with `os.urandom()` overwrites plus `fsync` and deleted, never printing the value; a re-scan found zero remaining. `git log -p --all` and `git ls-files` were scanned with the same pattern and found nothing, so the credential never entered the repository. The value may still exist in harness transcripts or shell logs — rotating the secret is the remaining action.
+
 ## Next step
 
-T11 — static verification pass, then T12 push and container re-verify.
+T12 — push the nine commits, then re-verify in the Dokploy container (five HTTP 200s, assets, schema, `nginx -t` with no warnings) which also closes `cc58d0c`.
