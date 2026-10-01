@@ -532,11 +532,8 @@ utilizamos cookies de seguimiento, publicidad ni perfilado de terceros.
 ## 13. Cambios a esta política
 
 Si modificamos esta política, lo informaremos a través de la plataforma y por correo
-electrónico a los usuarios registrados. La fecha de última actualización siempre [sic]
+electrónico a los usuarios registrados. La fecha de última actualización siempre está
 visible al inicio de esta página.
-
-[Nota de transcripción: en el original esa frase contiene una palabra en ruso, «будет»,
-que no corresponde al texto en español. Se marca [sic] en lugar de propagar el error.]
 
 ## 14. Contacto
 
@@ -618,8 +615,8 @@ profesional permanecen siempre en manos del profesional tratante.
 ## 4. Cuentas y registro
 
 - Debes entregar datos precisos y mantenerlos actualizados.
-- Eres responsable de la confidencialidad de tu contraseña y de todas la actividad
-  realizadas desde tu cuenta.
+- Eres responsable de la confidencialidad de tu contraseña y de toda la actividad
+  realizada desde tu cuenta.
 - Debes notificarnos de inmediato ante cualquier uso no autorizado.
 - Cada persona dispone de una cuenta gratuita propia. El uso compartido de
   credenciales impide auditar correctamente la operación.

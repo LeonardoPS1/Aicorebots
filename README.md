@@ -15,7 +15,26 @@ assets/favicon.svg
 Dockerfile            nginx:alpine
 nginx.conf
 robots.txt, sitemap.xml
+llms.txt              Resumen legible por máquina en la raíz
+llms-full.txt         Texto completo de cada ruta
+docs/superpowers/     Specs y planes de diseño SEO
 ```
+
+## Verificar un build
+
+El build corre en Dokploy (o en Actions), no en local. Para comprobar que
+`llms.txt` y `llms-full.txt` llegan al contenedor:
+
+```bash
+docker build -t aicore-seo:test .
+docker run --rm aicore-seo:test ls -la /usr/share/nginx/html/
+docker run --rm -p 8080:80 aicore-seo:test
+curl -sS -o /dev/null -w '%{http_code}\n' http://127.0.0.1:8080/llms.txt
+curl -sS -o /dev/null -w '%{http_code}\n' http://127.0.0.1:8080/llms-full.txt
+```
+
+Ambos deben imprimir `200`. Sin esto no se nota: un `COPY` que falta deja el
+archivo fuera de la imagen y ningún paso del build falla.
 
 ## Desarrollo local
 
