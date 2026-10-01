@@ -1,0 +1,777 @@
+# aicorebots.com — texto completo del sitio
+
+Documento de texto plano generado a partir del HTML renderizado por el servidor de
+https://aicorebots.com. No incluye navegación ni pie de página. El contenido se
+reproduce del sitio. Las rutas de detalle de producto aún no están publicadas: el
+detalle vigente de cada producto está en https://aicorebots.com/productos/
+
+================================================================================
+https://aicorebots.com/
+================================================================================
+
+Aicore Agency: agentes de IA que atienden, agendan y hacen seguimiento
+
+# Tu negocio, con pulso propio.
+
+Agentes de IA que atienden por WhatsApp, agendan y hacen seguimiento, para que tu
+equipo se dedique a lo que solo una persona puede hacer.
+
+Conversación de ejemplo. El agente agenda, confirma y avisa sin intervención humana.
+
+Aicore Agency trabaja desde Viña del Mar, Chile. Construimos y operamos nuestros
+propios sistemas en producción, sobre infraestructura propia.
+
+## Lo que ya está pasando
+
+# Seis formas en que tu negocio pierde clientes sin darte cuenta
+
+Números reales, de negocios reales. Si alguno te resulta familiar, es exactamente el
+problema que resolvemos.
+
+- 01. El mensaje que nadie responde
+  El 68% de las consultas llegan fuera del horario laboral. ¿Las estás perdiendo todas?
+- 02. Los cinco minutos que lo deciden todo
+  El cliente que no recibe respuesta en cinco minutos busca otra opción. Y la encuentra.
+- 03. La tarea que se repite todos los días
+  Preguntas iguales, respuestas iguales, todos los días. Horas de tu equipo en
+  respuestas que un agente puede dar al instante.
+- 04. El dato que vive en un papel
+  Fichas clínicas en papel: sin historial, sin métricas, sin continuidad. El
+  conocimiento del paciente se pierde con cada consulta.
+- 05. El paciente que se olvidó
+  El 80% olvida su hora sin un recordatorio. El ausentismo puede restar hasta 30% de
+  los ingresos de una consulta.
+- 06. Las herramientas que nunca se hablan
+  Agenda, fichas y cobros en sistemas separados. El seguimiento se pierde entre uno
+  y otro.
+
+## Lo que construimos y operamos nosotros mismos
+
+Cada producto resuelve una parte del mismo problema: que nadie se quede sin
+respuesta. Abre uno para ver cómo funciona.
+
+### AiCoreMed — Gestión clínica con IA para médicos independientes y clínicas.
+
+- Agenda, fichas clínicas y equipo en un solo lugar.
+- Varios consultorios en la misma plataforma, cada uno con sus datos aislados.
+- Un asistente de IA que ayuda al equipo a resumir, redactar y encontrar información.
+
+### Captación 360 — Pacientes nuevos cada mes, con gestión y retención automatizadas.
+
+- Anuncios en Meta que abren una conversación de WhatsApp, no un formulario que
+  nadie responde.
+- Un agente que califica al interesado, responde dudas y ofrece horas al instante.
+- Cada hora agendada queda ligada a la campaña que la originó, para medir el costo
+  real por paciente.
+
+### Portal del Paciente — Citas, recetas y exámenes en el celular del paciente, entrando desde WhatsApp.
+
+- Sin usuario ni contraseña: el paciente entra con su número de WhatsApp.
+- Ve sus próximas citas y pide reprogramar; la solicitud llega a la clínica por
+  WhatsApp.
+- Recetas y exámenes disponibles después de la consulta.
+
+### AicoreLink — Mensajería con agentes para WhatsApp, correo y redes, que se activa por cliente. (En construcción)
+
+- Voz y texto en WhatsApp, respuestas de correo y mensajes de redes en una sola
+  bandeja.
+- Cada cliente enciende solo los módulos que necesita.
+- Se despliega por cliente sobre nuestra propia infraestructura.
+
+### iapo.cl — Tips, prompts y repositorios de IA en español para aprender haciendo.
+
+- Prompts listos para copiar y adaptar a tu trabajo.
+- Skills y repositorios que usamos a diario, explicados sin jerga.
+- Una comunidad para quienes quieren usar IA en su negocio.
+
+## De un anuncio a un paciente que vuelve
+
+No vendemos un software suelto. Conectamos cuatro etapas para que cada persona que
+escriba tenga una respuesta, y cada respuesta tenga un resultado medible.
+
+- Captación: Anuncios que llevan a la persona correcta directo a una conversación.
+  (Meta Ads y Click-to-WhatsApp)
+- Conversión: Un agente responde en segundos, resuelve dudas y ofrece horas.
+  (n8n, modelos locales y Meta Cloud API)
+- Gestión: Agenda, fichas y equipo ordenados, con cada cita ligada a su origen.
+  (AiCoreMed)
+- Retención: El paciente ve sus citas y documentos, y vuelve sin que nadie lo
+  persiga. (Portal del Paciente)
+
+## Cómo trabajamos
+
+Partimos por el proceso, no por la herramienta. Si automatizarlo no vale la pena, te
+lo decimos.
+
+1. Diagnóstico
+   Mapeamos dónde se pierden horas, pacientes y clientes, con tu equipo y tus datos
+   reales.
+2. Piloto funcional
+   Levantamos un primer flujo que ya atiende mensajes de verdad, en semanas y no en
+   trimestres.
+3. Despliegue
+   Conectamos WhatsApp, correo y agenda sobre infraestructura dedicada, con tu marca
+   al frente.
+4. Medición y ajuste
+   Miramos leads, citas, asistencia y costo por cliente agendado. Si un número no
+   se mueve, cambiamos el flujo.
+
+- Sin intermediarios
+  Nos conectamos directo a las APIs oficiales y a modelos propios cuando conviene,
+  así el costo y el control quedan de tu lado.
+- Datos bajo resguardo
+  Cada cliente vive aislado en nuestra infraestructura, no repartido entre servicios
+  de terceros.
+- Pensado para Latinoamérica
+  Empezamos en Chile, con WhatsApp como canal principal y el español de la gente
+  como lenguaje.
+
+## No instalamos software. Lo operamos.
+
+Aicore Agency es una agencia chilena que construye y opera agentes de IA para
+clínicas y negocios. No revendemos cajas negras: corre en servidores nuestros, con
+nuestros propios modelos y nuestro equipo al otro lado.
+
+- Infraestructura propia
+  Todo corre en servidores administrados por nosotros: contenedores, certificados y
+  respaldos bajo nuestro control.
+- IA local primero
+  Los datos sensibles se procesan con modelos locales en infraestructura propia.
+  Nada sale de tu servidor sin que lo decidas vos.
+- Sistemas que se hablan
+  Captación, gestión y retención comparten los mismos datos. Cada conversación deja
+  un rastro medible, no una planilla que se pierde.
+
+## Corre en servidores propios, no en una caja negra
+
+- Contenedores, certificados y respaldos administrados por nosotros.
+- Modelos de IA locales para lo sensible y APIs directas para lo que necesita más
+  potencia.
+- Cada cambio se despliega y se prueba antes de llegar a tu equipo.
+
+## ¿Qué proceso te gustaría que funcione solo?
+
+Cuéntanos en una conversación de 20 minutos dónde se te va el tiempo. Te decimos
+con honestidad si vale la pena automatizarlo.
+
+Escribir por WhatsApp: https://wa.me/56975680702
+contacto@aicorebots.com
+
+Agentes de IA y automatización para clínicas y negocios. Viña del Mar, Chile.
+
+================================================================================
+https://aicorebots.com/productos/
+================================================================================
+
+Productos: AiCoreMed, Captación 360, Portal del Paciente y más
+
+# Cinco herramientas, un mismo pulso.
+
+Cada producto funciona por su cuenta. Juntos cubren el camino completo: desde la
+persona que escribe por WhatsApp hasta el paciente que vuelve a la clínica.
+
+Mapa de cómo se conectan los productos:
+
+- Captación 360 — Trae pacientes nuevos
+- Portal del Paciente — Los retiene
+- AiCoreMed — Ordena la clínica
+- AicoreLink — Mensajería con agentes
+- iapo.cl — Comunidad de IA
+
+Recorrido del paciente; se complementa.
+
+## AiCoreMed
+
+Estado: en producción.
+
+El sistema que ordena tu consultorio o tu clínica.
+
+Gestión clínica en la nube, hecha en Chile para médicos independientes y clínicas
+pequeñas y medianas. Reúne agenda, fichas y equipo, y suma inteligencia artificial
+donde de verdad ahorra tiempo.
+
+- Agenda y fichas clínicas: en un solo lugar, sin planillas sueltas.
+- Varias clínicas en una plataforma, cada una con sus datos aislados de las demás.
+- Asistente de IA: para resumir, redactar y encontrar información.
+- Pensado para WhatsApp, el canal por el que hoy agenda tu paciente.
+
+Ideal para: Médicos independientes y clínicas de 1 a 10 profesionales.
+Se conecta con: Captación 360 y Portal del Paciente.
+Datos: Multi-tenant, sobre infraestructura propia.
+
+Abrir AiCoreMed: https://med.aicorebots.com
+
+## Captación 360
+
+Estado: abriendo cupos piloto.
+
+Pacientes nuevos cada mes, con gestión y retención automatizadas.
+
+Un sistema de crecimiento, no solo un software. Une anuncios, un agente de
+conversación, AiCoreMed y el Portal del Paciente para que cada persona que escribe
+reciba respuesta y cada respuesta se pueda medir.
+
+- Captación: Anuncios en Meta con Click-to-WhatsApp que abren una conversación, no
+  un formulario que nadie responde.
+- Conversión: Un agente califica al interesado, resuelve dudas y ofrece horas en
+  segundos.
+- Gestión: AiCoreMed ordena agenda y equipo; cada cita queda ligada a su campaña.
+- Retención: El Portal del Paciente mantiene citas y documentos a mano para que
+  vuelva.
+
+Ideal para: Especialistas privados: odontología estética, medicina estética y
+dermatología, oftalmología, kinesiología y psicología.
+Qué mides: Conversaciones por WhatsApp, horas agendadas por campaña, asistencia y
+costo por paciente agendado.
+Incluye: AiCoreMed y Portal del Paciente.
+
+Conocer Captación 360: https://captacion360.aicorebots.com
+
+## Portal del Paciente
+
+Estado: disponible.
+
+Citas, recetas y exámenes en el celular del paciente.
+
+Un portal liviano y sin contraseñas. El paciente entra desde WhatsApp, ve lo que
+necesita y, si quiere cambiar una hora, la solicitud le llega a la clínica por el
+mismo canal que ya usa.
+
+- Mis citas: Próximas y pasadas, con reprogramación por WhatsApp.
+- Mis documentos: Recetas y exámenes disponibles después de la consulta.
+- Historial básico: Un resumen simple, sin exponer más de lo necesario.
+- Sin usuario ni contraseña: El acceso llega por WhatsApp.
+
+Ideal para: Clínicas que quieren menos llamadas para confirmar y reprogramar.
+Se conecta con: AiCoreMed. Es parte de Captación 360.
+
+Abrir el portal: https://consultorio.aicorebots.com/portal
+
+## AicoreLink
+
+Estado: en construcción.
+
+Mensajería con agentes para WhatsApp, correo y redes.
+
+Una plataforma modular que reúne WhatsApp, correo con IA y mensajes de redes
+sociales en un solo lugar. Se despliega por cliente y cada módulo se enciende solo
+si se necesita.
+
+- WhatsApp en texto y voz: El agente entiende notas de voz y responde.
+- Correo con IA: Borradores y respuestas que tu equipo revisa y envía.
+- Redes sociales: Mensajes directos en la misma bandeja.
+- Módulos por cliente: Pagas y activas solo lo que usas.
+
+Ideal para: Negocios que reciben muchos mensajes por varios canales y no quieren
+perder ninguno.
+Estado: Estamos construyéndolo por fases. Escríbenos si quieres ser de los primeros
+en probarlo.
+
+## iapo.cl
+
+Estado: comunidad.
+
+Tips, prompts y repositorios de IA en español.
+
+Un lugar para aprender inteligencia artificial haciendo. Compartimos lo que usamos a
+diario en Aicore, explicado sin jerga y listo para copiar y adaptar a tu trabajo.
+
+- Prompts listos: Para atención al cliente, contenido, ventas y administración.
+- Skills y repositorios: Herramientas que puedes instalar o clonar hoy.
+- Tips prácticos: Trucos cortos para sacarle más partido a la IA.
+
+Ideal para: Quienes quieren usar IA en su negocio sin ser programadores.
+Se complementa con: AiCoreMed y el resto de los productos.
+
+Visitar iapo.cl: https://iapo.cl
+
+## ¿No sabes con cuál partir?
+
+Cuéntanos cómo trabajas hoy. En 20 minutos te decimos qué producto te sirve y cuál
+todavía no.
+
+Escribir por WhatsApp: https://wa.me/56975680702
+contacto@aicorebots.com
+
+================================================================================
+https://aicorebots.com/faq/
+================================================================================
+
+Preguntas frecuentes
+
+# Lo que más nos preguntan
+
+Ocho respuestas directas. Si tu caso no está acá, escríbenos y lo resolvemos en la
+conversación.
+
+## ¿Qué es Aicore Agency?
+
+Somos una agencia chilena que construye y opera agentes de IA y automatizaciones para
+negocios que atienden por WhatsApp. No revendemos software de terceros: diseñamos el
+sistema, lo desplegamos en nuestra propia infraestructura y lo operamos nosotros
+mismos.
+
+## ¿Necesito saber programar?
+
+No. El trabajo técnico lo hacemos nosotros. De tu parte necesitamos acceso a lo que
+ya usas —agenda, WhatsApp Business, ficha clínica— y tu criterio profesional. Si sabes
+programar, mejor: entendemos lo que haces y ajustamos más rápido.
+
+## ¿Cuánto tarda?
+
+La primera conversación toma unos 2 minutos por WhatsApp. Un sistema en producción,
+en cambio, toma cerca de 5 días hábiles desde que tenemos los accesos, porque incluye
+pruebas con casos reales tuyos antes de encenderlo.
+
+## ¿Mis datos están seguros?
+
+Sí. La IA corre localmente en infraestructura propia: los datos no salen de nuestro
+servidor hacia APIs externas. Operamos bajo la Ley 19.628 de protección de datos
+personales y cada clínica tiene sus datos aislados, con cifrado en tránsito y reposo, y
+respaldos diarios cifrados.
+
+El detalle completo está en nuestra política de privacidad:
+https://aicorebots.com/privacidad/
+
+## ¿Solo trabajan con clínicas?
+
+No. Nuestro foco es la atención por WhatsApp, que casi todos los negocios de servicios
+tienen: odontología, estética, kinesiología, psicología, despachos. La parte clínica
+—historias, recetas— es propia de AiCoreMed; el resto del ecosistema sirve a cualquier
+negocio que atienda por mensajes.
+
+## ¿Qué es el Portal del Paciente?
+
+Es el acceso que tiene tu paciente desde el celular, sin usuario ni contraseña: entra
+desde un enlace de WhatsApp y ve sus citas, recetas y exámenes. Si quiere cambiar una
+hora, la solicitud te llega por el mismo canal que ya usas.
+
+## ¿Cuál elijo: AiCoreMed o Captación 360?
+
+No son alternativas, son partes distintas del mismo sistema.
+
+- AiCoreMed ordena lo que ya tienes: agenda, fichas clínicas y equipo.
+- Captación 360 hace el trabajo de traer pacientes nuevos, con anuncios, conversación
+  automatizada y medición por campaña.
+
+Si ya tienes agenda llena, empieza por AiCoreMed. Si te sobran horas, por Captación 360.
+
+## ¿Por dónde arranco?
+
+Escríbenos por WhatsApp al +56 9 7568 0702 y cuéntanos en un párrafo cómo atiendes
+hoy. En 20 minutos te decimos qué producto te sirve y cuál todavía no.
+
+## ¿Falta tu pregunta?
+
+Escríbenos. Contestamos personas, no formularios.
+
+================================================================================
+https://aicorebots.com/privacidad/
+================================================================================
+
+Política de Privacidad
+
+## 1. Introducción
+
+Aicore Agency opera este sitio y los productos de su ecosistema. Nos comprometemos a
+proteger la privacidad y confidencialidad de los datos personales y de salud que
+procesamos, con el mismo cuidado con que trataríamos los datos de nuestros propios
+pacientes.
+
+Esta política aplica a este sitio web y a los servicios que operamos: AiCoreMed,
+Captación 360, Portal del Paciente y AicoreLink. Cuando un cliente contrata nuestros
+servicios, sus datos se rigen además por los acuerdos de encargo de tratamiento que
+suscribimos con él.
+
+## 2. Responsable del tratamiento
+
+Aicore Agency, agencia de automatizaciones y agentes de inteligencia artificial, con
+domicilio en 1 Oriente 714, Viña del Mar, Región de Valparaíso, Chile, es responsable
+del tratamiento de los datos recopilados a través de este sitio web.
+
+Para los datos que un profesional de la salud o una clínica nos entrega como encargo,
+ese profesional es el responsable del tratamiento y nosotros actuamos como encargados,
+conforme a la sección 3 de esta política.
+
+## 3. Datos que recopilamos
+
+### 3.1 Datos de la cuenta
+
+Cuando creas una cuenta en nuestros productos, recopilamos tu nombre, correo
+electrónico, teléfono profesional y una contraseña almacenada cifrada.
+
+### 3.2 Datos de pacientes
+
+Cuando un profesional nos los entrega para operar su clínica, podemos procesar:
+
+- Nombre y datos de contacto: teléfono, correo electrónico, RUT.
+- Datos de salud: historial clínico, diagnósticos, recetas, alergias, medicación
+  crónica.
+- Datos de cobertura: obra social o convenio.
+- Historial de turnos y conversaciones por WhatsApp.
+
+No recopilamos datos de salud de pacientes directamente a través de este sitio web.
+
+### 3.3 Datos de uso
+
+Dirección IP, información del navegador y sistema operativo, páginas visitadas y
+registros de auditoría de las operaciones realizadas.
+
+## 4. Para qué usamos los datos
+
+- Gestionar turnos, confirmaciones y recordatorios.
+- Mantener la historia clínica digital y las recetas.
+- Comunicarse con el paciente por WhatsApp cuando lo autoriza.
+- Generar reportes para la clínica, sin identificar pacientes.
+- Mejorar la plataforma y responder solicitudes de soporte.
+- Cumplir obligaciones legales y contractuales.
+
+No vendemos datos personales ni datos de salud. No los usamos para publicidad.
+
+## 5. Base legal
+
+Tratamos los datos bajo alguna de estas bases:
+
+- Consentimiento explícito, para comunicaciones comerciales y para ciertos
+  tratamientos de datos de salud que requieren autorización del paciente.
+- Ejecución de contrato, para los servicios que el paciente o el cliente contratan
+  con nosotros.
+- Interés legítimo, para mejorar el servicio y prevenir fraude, siempre ponderado
+  contra los derechos del titular.
+- Cumplimiento legal, cuando una ley o resolución nos obliga.
+
+## 6. Inteligencia artificial local
+
+Este es el punto que más importa cuando se trata de datos de salud:
+
+- Los modelos de inteligencia artificial que operamos se ejecutan localmente en
+  servidores propios.
+- Los datos que procesa el asistente no salen de nuestra infraestructura para ser
+  enviados a servicios externos.
+- No utilizamos APIs externas de terceros para procesar información clínica de
+  nuestros clientes.
+- Los modelos no se reentrenan con los datos de nuestros clientes.
+- Operar en local también elimina los costos por llamada de API: la infraestructura
+  es nuestra y el costo es fijo.
+
+Puedes verificar esta arquitectura en nuestra sección de infraestructura:
+https://aicorebots.com/
+
+## 7. Terceros y encargados de tratamiento
+
+Usamos los siguientes servicios, todos con acuerdos de confidencialidad. Cada uno
+recibe solo el mínimo necesario para cumplir su función:
+
+| Servicio | Datos que recibe | Finalidad |
+| --- | --- | --- |
+| Twilio (WhatsApp Business) | Nombre y teléfono | Envío de mensajes y recordatorios |
+| n8n | Datos de turno, paciente y receta | Ejecución de flujos automatizados |
+| MercadoPago | Datos de facturación | Procesamiento de pagos y suscripciones. No accede a datos médicos |
+| Google Calendar | Nombre del paciente, anonimizable | Sincronización de agenda |
+
+Nunca cedemos datos a terceros con fines distintos de los indicados, ni los
+transferimos fuera de los proveedores listados.
+
+## 8. Seguridad
+
+- Cifrado en tránsito con HTTPS y TLS 1.3.
+- Cifrado en reposo con AES-256-GCM.
+- Autenticación con tokens firmados, segundo factor y bloqueo por intentos fallidos.
+- Aislamiento por cliente: cada clínica opera en su propio espacio de datos.
+- Registros de auditoría con trazabilidad de cada operación sensible.
+- Borrado lógico, para que la recuperación de un registro sea posible antes del
+  borrado definitivo.
+- Bloqueo de acceso a la base de datos desde fuera de la red de servidores.
+- Respaldos diarios cifrados, con rotación.
+- Saneamiento de instrucciones enviadas al asistente, para reducir ataques de
+  manipulación de prompts.
+
+## 9. Retención
+
+| Dato | Plazo |
+| --- | --- |
+| Datos de cuenta | Mientras la cuenta esté activa |
+| Historial clínico | Mínimo 5 años desde la última consulta, por obligación legal |
+| Registros de auditoría | 90 días |
+| Conversaciones | 1 año |
+| Respaldos | 30 días en rotación |
+
+Cuando un cliente cancela el servicio, sus datos se conservan 90 días para permitir su
+exportación y, tras ese plazo, se anonimizan de forma irreversible. Los registros de
+auditoría se conservan por obligación legal.
+
+## 10. Tus derechos: acceso, rectificación, cancelación y oposición
+
+Conforme a la Ley 19.628 sobre Protección de Datos Personales, puedes ejercer sobre
+tus datos los siguientes derechos:
+
+- Acceso: saber qué datos tuyos tenemos y obtener una copia.
+- Rectificación: corregir datos inexactos o desactualizados.
+- Cancelación: solicitar la eliminación de tus datos.
+- Oposición: oponerte a un tratamiento determinado.
+- Portabilidad: recibir tus datos en formato estructurado, como JSON o PDF.
+- Revocar consentimiento: retirar un consentimiento que entregaste, en cualquier
+  momento.
+
+Para ejercerlos, escríbenos a contacto@aicorebots.com. Respondemos dentro de los
+plazos legales. Si una clínica es responsable del tratamiento, tu solicitud se
+canaliza a través de ella, y coordinamos con ella para resolverla.
+
+## 11. Consentimiento en comunicaciones
+
+El envío de mensajes por WhatsApp o correo requiere consentimiento explícito. Cada
+paciente puede revisar y modificar sus preferencias en el Portal del Paciente.
+Registramos los cambios de consentimiento en la auditoría para poder demostrar qué
+aceptó y cuándo.
+
+## 12. Cookies
+
+Este sitio utiliza únicamente cookies técnicas necesarias para su funcionamiento. No
+utilizamos cookies de seguimiento, publicidad ni perfilado de terceros.
+
+## 13. Cambios a esta política
+
+Si modificamos esta política, lo informaremos a través de la plataforma y por correo
+electrónico a los usuarios registrados. La fecha de última actualización siempre [sic]
+visible al inicio de esta página.
+
+[Nota de transcripción: en el original esa frase contiene una palabra en ruso, «будет»,
+que no corresponde al texto en español. Se marca [sic] en lugar de propagar el error.]
+
+## 14. Contacto
+
+Para cualquier consulta sobre esta política o sobre el tratamiento de tus datos:
+
+- Aicore Agency — 1 Oriente 714, Viña del Mar, Región de Valparaíso, Chile.
+- Correo: contacto@aicorebots.com
+- WhatsApp: +56 9 7568 0702
+- Sitio: https://aicorebots.com
+
+================================================================================
+https://aicorebots.com/terminos/
+================================================================================
+
+Términos del Servicio
+
+## 1. Aceptación
+
+Al registrarte o al contratar cualquiera de nuestros servicios, aceptas estos
+términos. Si no estás de acuerdo con alguna de sus cláusulas, dinos antes de firmar:
+preferimos resolverlo a tiempo.
+
+## 2. Descripción del servicio
+
+Aicore Agency opera un ecosistema de productos para negocios de servicios que
+atienden por WhatsApp:
+
+- Gestión de turnos y agenda.
+- Historia clínica digital y recetas digitales.
+- Comunicación automatizada por WhatsApp, con confirmaciones y recordatorios.
+- Asistente de inteligencia artificial que opera localmente en nuestra
+  infraestructura, con modelos abiertos ejecutados en servidores propios.
+- Reportes de gestión para el profesional o la clínica.
+- Portal del Paciente, con acceso sin usuario ni contraseña.
+- Automatizaciones de flujos de trabajo que conectan las etapas anteriores.
+
+Las condiciones específicas de cada producto, sus límites y su alcance se detallan
+en la propuesta o cotización que suscribes. Ante cualquier diferencia, prevalece el
+documento específico firmado.
+
+## 3. Roles y responsabilidades
+
+### 3.1 El profesional o la clínica
+
+Cuando el servicio opera sobre datos de pacientes, el profesional o la clínica es el
+Responsable del Tratamiento. Le corresponde:
+
+- Obtener el consentimiento informado de sus pacientes antes de incorporarlos al
+  sistema.
+- Introducir datos fidedignos y completos.
+- Guardar sus credenciales de acceso de forma confidencial.
+- Informar a sus pacientes sobre el tratamiento de sus datos, conforme a la política
+  de privacidad.
+- Atender las solicitudes de derechos de sus pacientes y canalizarlas hacia nosotros
+  cuando corresponda.
+
+### 3.2 Aicore Agency
+
+Actuamos como Encargado. Nos comprometemos a:
+
+- Tratar los datos únicamente según las instrucciones del cliente.
+- No utilizar los datos del cliente para ningún otro fin, salvo los descritos en esta
+  política.
+- Implementar las medidas de seguridad detalladas en la política de privacidad.
+- Notificar cualquier incidente de seguridad relevante que afecte los datos bajo su
+  custodia.
+
+### 3.3 Alcance de la asistencia de inteligencia artificial
+
+El asistente de IA es una herramienta de apoyo. No reemplaza el criterio profesional.
+No emite diagnósticos, no receta y no decide sobre un paciente. Toda salida del
+asistente debe ser revisada por un profesional habilitado antes de llegar a un
+paciente.
+
+El asistente sirve para resumir, redactar, organizar y buscar información ya
+registrada. El juicio clínico, las decisiones diagnósticas y la responsabilidad
+profesional permanecen siempre en manos del profesional tratante.
+
+## 4. Cuentas y registro
+
+- Debes entregar datos precisos y mantenerlos actualizados.
+- Eres responsable de la confidencialidad de tu contraseña y de todas la actividad
+  realizadas desde tu cuenta.
+- Debes notificarnos de inmediato ante cualquier uso no autorizado.
+- Cada persona dispone de una cuenta gratuita propia. El uso compartido de
+  credenciales impide auditar correctamente la operación.
+- Podemos suspender cuentas que violen estos términos, que se utilicen para enviar
+  spam o que comprometan la seguridad de la plataforma.
+
+## 5. Privacidad
+
+El tratamiento de datos personales y de salud se rige por nuestra Política de
+Privacidad, que forma parte integral de estos términos.
+
+## 6. Propiedad intelectual
+
+El código fuente, el diseño, los logotipos, las marcas y el contenido de este sitio
+y de nuestros productos son propiedad de Aicore Agency.
+
+Al contratar un servicio obtienes una licencia limitada, no exclusiva e
+intransferible para usar el producto durante el período de suscripción vigente. No
+incluye la cesión de derechos de propiedad intelectual.
+
+## 7. Planes y facturación
+
+- Ofrecemos planes gratuitos y de pago, con características detalladas en la página de
+  precios o en tu propuesta.
+- Los planes de pago se facturan mensualmente y se procesan a través de MercadoPago.
+- Puedes cancelar desde la configuración de tu cuenta, sin necesidad de contactarnos.
+- Al cancelar, conservas el acceso hasta el final del período ya facturado.
+- El plan gratuito incluye 14 días de prueba sin necesidad de tarjeta.
+- Los precios son los publicados al momento de la contratación y no se ajustan durante
+  un período facturado en curso.
+
+## 8. Limitación de responsabilidad
+
+El servicio se entrega tal cual y según disponibilidad. No podemos garantizar que
+funcione de forma ininterrumpida ni libre de errores.
+
+No respondemos por:
+
+- Daños indirectos, pérdida de oportunidades o lucro cesante.
+- Decisiones médicas tomadas con base en la salida del asistente de IA.
+- Interrupciones por mantenimiento programado, fuerza mayor o causa ajena a nuestro
+  control razonable.
+- Pérdida de datos por causas ajenas a nuestro control. Contamos con respaldos diarios
+  para mitigar este riesgo, pero el mantenimiento de tu propia copia de la
+  información crítica sigue siendo responsabilidad tuya.
+
+## 9. Cancelación y eliminación
+
+Puedes cancelar el servicio desde la configuración de tu cuenta en cualquier momento.
+Al hacerlo:
+
+1. El servicio permanece activo hasta el final del período pagado.
+2. Dispones de 90 días de gracia para exportar tu información.
+3. Tras ese plazo, los datos se anonimizan de forma irreversible.
+4. Los registros de auditoría se conservan por el plazo legal correspondiente, aunque
+   el resto de la información se anonimice.
+
+Exporta tus datos antes de cancelar. Después de la anonimización no es posible
+recuperarlos.
+
+## 10. Modificaciones a estos términos
+
+Podemos modificar estos términos. Las modificaciones relevantes se comunican con 15
+días de anticipación a través de la plataforma y por correo electrónico. El uso
+continuado del servicio después de ese aviso implica la aceptación de la versión
+actualizada.
+
+## 11. Legislación aplicable
+
+Estos términos se rigen por las leyes de la República de Chile. Cualquier controversia
+se somete a la competencia de los tribunales de Santiago.
+
+## 12. Contacto
+
+- Aicore Agency — 1 Oriente 714, Viña del Mar, Región de Valparaíso, Chile.
+- Correo: contacto@aicorebots.com
+- WhatsApp: +56 9 7568 0702
+- Sitio: https://aicorebots.com
+
+================================================================================
+https://aicorebots.com/aviso-legal/
+================================================================================
+
+Aviso Legal
+
+Quién está detrás de este sitio, qué contiene y bajo qué condiciones puedes usar su
+contenido.
+
+Última actualización: 30 de septiembre de 2026
+
+## 1. Datos identificativos del titular
+
+- Razón social: Aicore Agency
+- Domicilio: 1 Oriente 714, Viña del Mar, Región de Valparaíso, Chile
+- Correo electrónico: contacto@aicorebots.com
+- Sitio web: https://aicorebots.com
+
+En adelante, Aicore o el Titular.
+
+## 2. Objeto del sitio
+
+Este sitio web presenta los productos y servicios de Aicore, una agencia de
+automatizaciones y agentes de inteligencia artificial. Su ecosistema incluye:
+
+- AiCoreMed, software de gestión clínica con inteligencia artificial.
+- Captación 360, sistema de captación, conversión y retención de pacientes.
+- Portal del Paciente, acceso a citas y documentos desde el celular.
+- AicoreLink, mensajería unificada con agentes de IA.
+- iapo.cl, comunidad y contenido sobre IA aplicada.
+
+El sitio también sirve como puerta de entrada a nuestros servicios en
+https://med.aicorebots.com y https://captacion360.aicorebots.com.
+
+## 3. Condiciones de acceso
+
+El acceso a este sitio es gratuito y no requiere registro. La navegación y la consulta
+de su contenido no constituyen, por sí solas, una relación comercial ni contractual
+entre el usuario y Aicore.
+
+Toda contratación de nuestros productos o servicios requiere un acuerdo escrito
+—propuesta, cotización o contrato—aceptado por ambas partes, con sus condiciones
+específicas.
+
+## 4. Propiedad intelectual
+
+Los textos, el diseño, la estructura, las marcas, los logotipos, el código fuente y las
+ilustraciones de este sitio y de los productos de Aicore son propiedad de Aicore Agency
+o de sus licenciantes, y están protegidos por la normativa chilena e internacional
+sobre propiedad intelectual.
+
+Está prohibida la reproducción total o parcial de dicho material, sin autorización
+previa y por escrito de Aicore. Los estudios de mercado, la citación con fines
+informativos y el uso estrictamente personal se admiten, siempre sin alterar la
+información original.
+
+## 5. Exclusión de responsabilidad y garantías
+
+Aicore se compromete a mantener el sitio disponible, pero no garantiza la continuidad
+absoluta del servicio ni la ausencia de errores en su contenido.
+
+La información publicada en este sitio es de carácter informativo y comercial. Las
+condiciones vinculantes para la prestación de servicios se establecen en el contrato
+o cotización formal que suscriba el cliente.
+
+## 6. Enlaces a productos y sitios de terceros
+
+Este sitio enlaza a productos y sitios de terceros, incluidos nuestros propios dominios
+de producto y la comunidad iapo.cl. Cada uno de esos sitios cuenta con su propio aviso
+legal y sus propias políticas. Aicore no responde por el contenido de sitios de terceros
+ajenos a su operación.
+
+## 7. Legislación aplicable
+
+El presente aviso legal se rige por las leyes de la República de Chile. Cualquier
+controversia se somete a la competencia de los tribunales de Santiago.

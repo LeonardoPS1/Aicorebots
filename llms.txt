@@ -1,0 +1,32 @@
+# aicorebots.com
+
+> Aicore Agency es una agencia chilena que construye y opera agentes de IA para clínicas y negocios que atienden por WhatsApp.
+
+Domicilio: 1 Oriente 714, Viña del Mar, Región de Valparaíso, Chile.
+Contacto: contacto@aicorebots.com — WhatsApp +56 9 7568 0702.
+
+## Productos
+
+Estado de esta sección: las cinco rutas de producto de abajo son la estructura
+prevista. A la fecha de este archivo todavía no están publicadas, por lo que
+devuelven 404. El detalle completo de cada producto está hoy en
+https://aicorebots.com/productos/ y en la sección de productos del sitio principal.
+
+- [AiCoreMed](/productos/aicoremed/): Gestión clínica en la nube, hecha en Chile para médicos independientes y clínicas pequeñas y medianas. Reúne agenda, fichas y equipo, y suma inteligencia artificial donde de verdad ahorra tiempo. Estado: en producción.
+- [Captación 360](/productos/captacion-360/): Une anuncios, un agente de conversación, AiCoreMed y el Portal del Paciente para que cada persona que escribe reciba respuesta y cada respuesta se pueda medir. Estado: abriendo cupos piloto.
+- [Portal del Paciente](/productos/portal-paciente/): Portal liviano y sin contraseñas. El paciente entra desde WhatsApp, ve sus citas, recetas y exámenes, y si quiere cambiar una hora la solicitud le llega a la clínica por el mismo canal. Estado: disponible.
+- [AicoreLink](/productos/aicorelink/): Mensajería con agentes para WhatsApp, correo y redes sociales en un solo lugar. Estado: en construcción.
+- [iapo.cl](/productos/iapo/): Tips, prompts y repositorios de IA en español, explicado sin jerga y listo para copiar y adaptar a tu trabajo.
+
+## Información
+
+- [Preguntas frecuentes](/faq/): Ocho respuestas directas sobre qué hacemos, si necesitas saber programar, cuánto tarda, cómo protegemos los datos y por dónde empezar.
+- [Política de privacidad](/privacidad/): Cómo se recopilan, usan, almacenan y protegen los datos personales y de salud, incluidos los derechos de acceso, rectificación, cancelación y oposición, e inteligencia artificial ejecutada localmente.
+- [Términos del Servicio](/terminos/): Condiciones de uso: qué incluye cada producto, roles y responsabilidades, propiedad intelectual, planes, límites de responsabilidad y cancelación.
+- [Aviso Legal](/aviso-legal/): Datos identificativos del titular, objeto del sitio, condiciones de acceso, propiedad intelectual y límites de responsabilidad.
+
+## Contacto
+
+- Correo: contacto@aicorebots.com
+- WhatsApp: +56 9 7568 0702
+- Sitio: https://aicorebots.com
