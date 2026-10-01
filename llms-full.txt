@@ -2,8 +2,8 @@
 
 Documento de texto plano generado a partir del HTML renderizado por el servidor de
 https://aicorebots.com. No incluye navegación ni pie de página. El contenido se
-reproduce del sitio. Las rutas de detalle de producto aún no están publicadas: el
-detalle vigente de cada producto está en https://aicorebots.com/productos/
+reproduce del sitio. Cada producto tiene además su propia ruta de detalle, con la
+misma extensión de este documento.
 
 ================================================================================
 https://aicorebots.com/
@@ -292,6 +292,556 @@ todavía no.
 
 Escribir por WhatsApp: https://wa.me/56975680702
 contacto@aicorebots.com
+
+================================================================================
+https://aicorebots.com/productos/aicoremed/
+================================================================================
+
+AiCoreMed: software de gestión clínica con IA | Aicore Agency
+
+# AiCoreMed: software de gestión clínica con IA
+
+El sistema que ordena tu consultorio o tu clínica
+
+Agenda, fichas y equipo en un solo lugar, con un asistente de IA que hace el trabajo repetitivo por ti. Hecho en Chile, pensado para trabajar por WhatsApp.
+
+En producción
+
+## El problema no es la falta de horas, es que nadie las encuentra
+
+Un consultorio no se cae por falta de pacientes. Se cae por las dos horas que se van en buscar la ficha de un paciente que atiende cada veinte minutos, en confirmar por teléfono lo que ya estaba anotado, en reconstruir un historial que nadie dejó ordenado. Ese trabajo no aparece en ningún plan de negocio y aun así decide si el mes cierra bien o mal.
+
+La promesa de AiCoreMed es angosta a propósito: que la agenda, la ficha clínica y la información del equipo dejen de estar repartidos. No prometemos más pacientes. Prometemos que el tiempo que hoy se pierde buscando datos se devuelva a la atención.
+
+Y hay una segunda razón, más silenciosa. Casi todas las clínicas chilenas agendan por WhatsApp. Cualquier sistema que no hable ese idioma termina siendo un segundo lugar donde nadie mira. AiCoreMed se integra con el canal real en vez de reemplazarlo.
+
+## Para quién es, y para quién no
+
+Es para médicos independientes y para clínicas de uno a diez profesionales. El tamaño no es un capricho estadístico: es el punto donde la agenda, las fichas y el equipo siguen siendo manejables por una o dos personas y todavía no hay un departments manager dedicado a que nada se caiga.
+
+No es para ti si tienes un hospital con departamentos estructurados y personal administrativo dedicado, porque ahí el problema son los procesos internos y esto es solo una pieza del rompecabezas. Tampoco es para consultorios que no usan ficha clínica en ningún sentido: no hay nada que ordenar y el sistema no aporta.
+
+Y conviene decirlo claro: no es un producto para quien busca replacear un software clínico que ya le funciona y conoce todo su equipo. Cambiar de sistema clínico cuesta tiempo real, y si el tuyo anda bien, la decisión honesta es no cambiar.
+
+## Cómo funciona, paso por paso
+
+El flujo real es este, y funciona con las herramientas que ya tienes:
+
+- El paciente escribe por WhatsApp, como escribe hoy. No cambia de app ni aprende nada nuevo.
+- El sistema conecta esa conversación con la ficha del paciente y con la agenda del profesional, no en un chat paralelo sino sobre los datos reales.
+- La IA de Aicore trabaja en segundo plano. Resume una consulta, redacta la nota a partir de lo que se conversó y recupera un antecedente cuando alguien pregunta.
+- Lo que la IA produce queda en la ficha, listo para que el profesional lo revise y lo firme. Nada se archiva sin que alguien lo mire.
+- Cuando llega una hora, el paciente recibe la confirmación por el mismo WhatsApp. Si necesita cambiarla, la solicitud vuelve al mismo canal y se refleja en la agenda.
+
+La IA corre en nuestra propia infraestructura, no en una API externa. Ninguna ficha clínica sale de nuestros servidores para que un modelo de terceros la procese. Eso no es un detalle técnico: es la diferencia entre una clínica que puede decir que sí y una que tiene que pedir permiso.
+
+## Qué incluye
+
+- Agenda y fichas clínicas en un solo lugar. Sin planillas sueltas, sin un cuaderno y un sistema que nunca coinciden.
+- Varias clínicas en una plataforma. Cada una con sus datos aislados de las demás, como si fueran sistemas separados.
+- Asistente de IA. Para resumir, redactar y encontrar información dentro de las fichas.
+- Integración con WhatsApp. El canal por el que tu paciente agenda hoy queda conectado a la agenda de verdad.
+- Datos multi-tenant sobre infraestructura propia. Aislamiento entre clínicas, cifrado en tránsito y reposo, respaldos diarios.
+
+## Qué no incluye
+
+### Los límites, por escrito
+
+No reemplaza el juicio clínico. La IA redacta y ordena. La firma, el diagnóstico y la indicación siguen siendo del profesional tratante, siempre.
+
+No es un sistema de imagen ni de laboratorio. Si tu clínica necesita integrar SAD, RIS o un laboratorio externo con intercambio estructurado, eso se conversa aparte y no viene incluido.
+
+No migra tu historia clínica automáticamente. Si vienes de otro sistema y quieres el historial histórico, esa carga se cotiza por separado.
+
+No incluye hardware, impresoras ni configuradores de laboratorio. Tampoco incluye licencias de terceros que hoy ya pagas.
+
+No sustituye el resguardo físico que ya tienes. Nosotros respaldamos; el respaldo en papel de tu consulta sigue siendo tuyo.
+
+## Si tu problema es conseguir pacientes, esto no es lo que buscas
+
+Conviene decirlo antes de que lo descubras en una demostración. AiCoreMed ordena lo que ya tienes. Si el cuello de botella es que entran seis consultas al mes y necesitas veinte, ordenar seis consults no sirve de nada.
+
+Para eso existe Captación 360, que une anuncios, un agente de conversación y la agenda para medir de dónde viene cada paciente nuevo. Y si lo que más te pesa es el tiempo que se va en confirmar y reprogramar, el Portal del Paciente reduce esas llamadas por sí solo.
+
+**Captación 360** - Si te faltan pacientes, no horas para atenderlos.
+
+**Portal del Paciente** - Si gastas el día en confirmaciones por teléfono.
+
+**AicoreLink** - Si el problema son los mensajes que entran por correo y redes.
+
+**iapo.cl** - Si quieres aprender a usar IA antes de contratar nada.
+
+## Qué determina el precio
+
+No publicamos cifras porque no serían ciertas para ti. El precio se calcula sobre tres cosas concretas, y estas son las únicas que lo mueven:
+
+- Cantidad de profesionales
+
+Cuántas agendas y cuántos perfiles de equipo se administran.
+
+- Cantidad de sedes
+
+Si es una clínica o son varias. Cada sede queda aislada de las demás.
+
+- Estado actual de los datos
+
+Partir de cero es más rápido que migrar un historial histórico.
+
+Lo que no cambia el precio: cuántas horas agendas, si la consulta dura quince minutos o una hora, o si el paciente escribe mucho. No cobramos por uso de la IA.
+
+## La pregunta que más nos hacen: ¿y si el asistente se equivoca?
+
+Es la pregunta correcta y no tiene una respuesta de folleto. Estas son las tres cosas que operan en verdad:
+
+Primero, la IA no firma nada. Todo lo que produce queda en estado de borrador en la ficha. Un profesional tiene que revisarlo y validarlo antes de que forme parte del historial. Si nadie lo valida, no existe como ficha.
+
+Segundo, la IA no agenda por su cuenta. Puede proponer una hora y escribir al paciente, pero la disponibilidad la define la agenda real, no el modelo. Si la hora está tomada, la propuesta simplemente no existe.
+
+Tercero, corre donde nosotros la vemos. La IA vive en nuestra infraestructura y operamos bajo la Ley 19.628. Esto no vuelve perfecto al sistema, pero sí permite que sepas exactamente dónde están tus datos, quién los ve y que no están en un servidor ajeno sin que lo sepas.
+
+Y si algún día un paciente o un inspector pregunta, la respuesta no es una promesa: es que puedes mostrarle dónde vive la información.
+
+## ¿Quieres ver AiCoreMed con datos tuyos?
+
+Cuéntanos cuántos profesionales atiende tu consultorio y qué sistema usas hoy. En 20 minutos te decimos si AiCoreMed te sirve o si de verdad necesitas otra cosa.
+
+================================================================================
+https://aicorebots.com/productos/captacion-360/
+================================================================================
+
+Captación 360: pacientes nuevos por WhatsApp | Aicore Agency
+
+# Captación 360: pacientes nuevos cada mes
+
+Captación, conversión, gestión y retención, medidas juntas
+
+Un sistema de crecimiento, no solo un software: une anuncios, un agente de conversación, la agenda y la retención en un mismo recorrido que puedes medir de punta a punta.
+
+Abriendo cupos piloto
+
+## El problema no es que nadie escriba. Es que nadie responde a tiempo
+
+Casi todos los especialistas que revisamos tienen el mismo problema y no lo ven como un problema. Pagan un anuncio que funciona, reciben los mensajes, y creen que están captando pacientes. En la práctica están captando lo que un contestador automático responde en la primera hora. El resto se pierde, sin fecha ni rastro.
+
+La diferencia entre una clínica que crece y una que no crece casi nunca está en el presupuesto del anuncio. Está en los minutos que pasan entre el mensaje del paciente y la respuesta. En odontología, cinco minutos. En una tarde de domingo, cinco horas.
+
+Captación 360 existe para cerrar ese hueco. La promesa no es más pacientes en abstracto: es que cada conversación termine en una hora efectivamente ocupada, y que sepas cuánto costó.
+
+## Para quién es, y para quién no
+
+Es para el especialista privado que trabaja con agenda propia y necesita un volumen constante de pacientes nuevos: odontología estética, medicina estética y dermatología, oftalmología, kinesiología y psicología.
+
+El perfil es más específico de lo que parece. Necesitas un tratamiento que se pueda agendar en una consulta de quince o veinte minutos, un precio que se pueda comunicar por mensaje sin letras chicas, y una agenda con horas libres reales. Si tu consulta dura dos horas y se coordina con un equipo entero, la mecánica de este sistema no te sirve.
+
+No es para clínicas que ya tienen lista de espera. Si no puedes atender a quien te pide hora, gastar en captarlos es la forma más cara de no resolver nada.
+
+Tampoco es para quien no quiere medir. Si la idea de saber cuánto cuesta cada paciente agendado te incomoda, este sistema te va a incomodar de verdad.
+
+## Cómo funciona: cuatro capas encadenadas
+
+El recorrido completo es este, y cada capa deja un registro que se puede revisar:
+
+- Captación. Un anuncio en Meta con Click-to-WhatsApp. El paciente no llena un formulario: abre una conversación, que es el único formato donde la mayoría responde de verdad.
+- Conversión. Un agente de conversación atiende en segundos, resuelve las dudas frecuentes de tu servicio, califica al interesado y ofrece horas concretas de tu agenda real.
+- Gestión. La cita queda registrada en AiCoreMed y ligada a la campaña que la trajo. No hay una caja de Pandora de teléfonos sin origen.
+- Retención. El Portal del Paciente deja las citas, las recetas y los exámenes a mano, para que el motivo de volver sea el sistema y no tu memoria.
+
+Lo que cierra el circuito es la medición. De cada campaña puedes saber cuántas conversaciones hubo, cuántas horas se agendaron, cuántas consultas llegaron de verdad y cuánto costó cada paciente agendado.
+
+## Qué incluye
+
+- Campañas en Meta con Click-to-WhatsApp. Conversaciones en lugar de formularios que nadie responde.
+- Agente de conversación que agenda. Responde, califica y ofrece horas reales, también fuera del horario de atención.
+- AiCoreMed y Portal del Paciente incluidos. No son extras: son las capas de gestión y retención de este mismo recorrido.
+- Cita ligada a su campaña. Puedes saber de dónde vino cada paciente y cuánto costó traerlo.
+- Panel de métricas. Conversaciones por WhatsApp, horas agendadas por campaña, asistencia y costo por paciente agendado.
+
+## Qué no incluye
+
+### Los límites, por escrito
+
+No garantiza un número de pacientes. Cualquiera que te prometa un volumen fijo te está vendiendo algo. Lo que prometemos es que la demanda que genere tu anuncio se responde y se mide.
+
+No reemplaza tu criterio sobre el paciente. El agente califica con la información que le des. Si tu filtro de admisión no está escrito en las respuestas, el agente no lo va a adivinar.
+
+No incluye la producción de los anuncios. Diseño, textos y tratamiento de las campañas se cotizan aparte si los necesitas.
+
+No opera fuera de Meta Ads ni de WhatsApp. Hoy es el canal donde está la demanda de estos servicios en Chile; si el tuyo es otro, se conversa antes de firmar cualquier cosa.
+
+No cubre la primera atención clínica. La consulta es tuya y con tu tiempo. El sistema trabaja hasta la puerta.
+
+## Si no tienes presupuesto para anuncios, esto no es para ti
+
+Captación 360 gasta en adquisición. Si todavía no estás invirtiendo en publicidad y tu problema es otro, empezar por acá es empezar por el costoso.
+
+Si lo que te falta es ordenar lo que ya tienes, empieza por AiCoreMed: agenda, fichas y equipo en un solo lugar, sin depender de un peso invertido en publicidad. Y si lo que te pesa es el volumen de llamadas para confirmar y reprogramar, el Portal del Paciente es un paso más chico y más barato.
+
+**AiCoreMed** - Para ordenar agenda y fichas, sin gastar en anuncios.
+
+**Portal del Paciente** - Para dejar de confirmar citas por teléfono.
+
+**AicoreLink** - Para el correo y los mensajes de redes que entran aparte.
+
+**iapo.cl** - Para aprender el método antes de contratarlo.
+
+## Qué determina el precio
+
+El precio de Captación 360 no es una tarifa fija, y tampoco incluye una promesa de retorno. Se determina por tres cosas que puedes verificar en una conversación antes de firmar:
+
+- Presupuesto publicitario
+
+Cuánto vas a invertir en Meta cada mes. El sistema se dimensiona a ese número, no al revés.
+
+- Volumen de la agenda
+
+Cuántas horas libres tienes de verdad para recibir a los pacientes que lleguen.
+
+- Complejidad de la respuesta
+
+Cuántas preguntas distintas hay que responder antes de poder agendar una hora.
+
+Lo que no determina el precio: cuántos pacientes terminasen atendiendo, ni cuánto factura la clínica. Cobramos por la operación del sistema, no por el resultado clínico, que no nos corresponde.
+
+## La pregunta que más nos hacen: ¿y si agenda a gente que no se presenta?
+
+Es la objeción más seria de todo este sistema, y la única que puede hacer que la inversión se pierda. La respuesta tiene dos partes.
+
+Por un lado, hay que medir la asistencia, no solo la reserva. Por eso el panel incluye cuántos pacientes agendados efectivamente llegaron. Una clínica que solo mira reservas termina creyendo que su sistema funciona cuando en realidad está llenando la agenda de horas vacías. Mirar la asistencia cambia la conversación, y a veces obliga a cambiar el anuncio.
+
+Por otro, la calificación se escribe antes, no después. Si el agente ofrece horas a cualquiera que escriba, vas a tener muchos no-shows. Si antes le preguntamos lo que de verdad discrimina —motivo de consulta, tratamiento que busca, disponibilidad, si ya fue paciente antes— los no-shows caen, y no por magia: porque el filtro estaba definido.
+
+Ese filtro lo escribes tú con tu criterio clínico, no nosotros. Lo que hacemos es ponerlo a trabajar a cualquier hora. Si no alcanzaste a definirlo, la primera conversación con nosotros es precisamente para escribirlo.
+
+## ¿Quieres ser una de las clínicas piloto?
+
+Abrimos cupos por fases. Cuéntanos qué especialidad tienes y cuántas horas libres tienes: en 20 minutos te decimos si tiene sentido probarlo o si necesitas otra cosa primero.
+
+================================================================================
+https://aicorebots.com/productos/portal-paciente/
+================================================================================
+
+Portal del Paciente: citas y recetas por WhatsApp | Aicore Agency
+
+# Portal del Paciente: citas y recetas en el celular
+
+Sin usuario, sin contraseña y sin otro canal que aprender
+
+Un portal liviano donde el paciente ve lo que necesita y, si quiere cambiar una hora, la solicitud le llega a la clínica por el mismo WhatsApp que ya usa.
+
+Disponible
+
+## Tu recepción no está mal configurada. Está repitiendo
+
+La clínica promedio pierde entre quince y veinte llamadas al día en una sola tarea: confirmar y reprogramar. No es un problema de atención, es una tarea administrativa que se repite porque no hay otro canal. Y cada una de esas llamadas es tiempo que la recepción podría usar en algo que un paciente recuerda.
+
+El problema se hace más caro cuando el paciente tiene que llamar dos veces: una para saber que la receta ya está lista, otra porque no se acordaba de que la pedía por el mismo canal. Cada olvido de un dato termina en una llamada.
+
+El Portal del Paciente existe para que la respuesta esté donde el paciente ya está. No es una app que hay que instalar y no es un correo que hay que revisar. Es el mismo WhatsApp, del otro lado.
+
+## Para quién es, y para quién no
+
+Es para clínicas que quieren menos llamadas de confirmación y reprogramación. El perfil que mejor se ajusta es el de una clínica con volumen sostenido de atenciones y pacientes que vuelven: controles, tratamientos de seguimiento y entregas de recetas.
+
+No es para una clínica que atiende dos pacientes al día. El costo no se justifica con ese volumen.
+
+Tampoco es para clínicas que necesitan que el paciente firme consentimientos, pague en línea, o descargue documentos con verificación de identidad avanzada. Eso es otra categoría de producto, con otros requisitos legales, y no lo resuelve este portal.
+
+Y conviene decirlo de una vez: un portal sin nada detrás es decorativo. Si tu ficha clínica sigue en papel, el portal puede mostrar citas, pero no puede entregarte recetas ni exámenes. El sentido real aparece cuando hay un sistema del otro lado.
+
+## Cómo funciona, paso por paso
+
+- El paciente entra al portal desde su propia conversación de WhatsApp. No crea usuario, no elige contraseña, no busca un correo que no recuerda haber usado.
+- El sistema verifica que ese número realmente corresponde a un paciente de tu clínica antes de mostrarle nada. Si no corresponde, no ve nada.
+- Dentro ve sus próximas citas, sus citas pasadas y los documentos que la clínica habilitó para él.
+- Si necesita cambiar una hora, elige la que le acomoda y envía la solicitud. No elige una hora libre directamente: la agenda real decide.
+- La solicitud te llega a ti por WhatsApp, con el contexto de quién es y qué está pidiendo. Tú confirmas y el paciente recibe la respuesta por el mismo canal.
+
+El punto que más importa: el paciente nunca escribe a un sistema que la clínica no controla. Cada cambio pasa por una persona. Eso es más lento que un portal que se auto-gestiona, y es exactamente lo que hace que una clínica pueda usarlo sin miedo.
+
+## Qué incluye
+
+- Mis citas. Próximas y pasadas, con la opción de solicitar un cambio de hora.
+- Mis documentos. Recetas y exámenes disponibles después de la consulta.
+- Historial básico. Un resumen simple de lo relevante, sin exponer más de lo necesario.
+- Sin usuario ni contraseña. El acceso llega por WhatsApp y se verifica contra la ficha del paciente.
+- Solicitudes que llegan a tu equipo. Por WhatsApp, con el contexto necesario para responder sin adivinar.
+
+## Qué no incluye
+
+### Los límites, por escrito
+
+No deja que el paciente agende ni cancele por su cuenta. Puede solicitar; la confirmación la hace tu equipo. Es una decisión de seguridad, no una funcionalidad pendiente.
+
+No expone la ficha clínica completa. El paciente ve un resumen. El detalle profesional sigue donde debe estar.
+
+No reemplaza la firma digital de recetas. Si en tu país una receta electrónica exige firma con clave advanced, esa parte se conversa aparte.
+
+No funciona sin AiCoreMed o sin un sistema que le alimente los datos. El portal es la capa visible de la información clínica; sin ella es una pantalla vacía.
+
+No es un canal de pago. Cobrar por el portal es una función aparte, y conviene analizarla con calma antes de activarla.
+
+## Si tu problema no son las llamadas, esto no te va a servir
+
+El Portal del Paciente ataca un problema concreto: el trabajo administrativo repetitivo. Si lo que sufres es otro, agregar un portal no lo arregla.
+
+Si tu problema es que entran muy pocos pacientes, el problema no es la confirmación sino la captación, y eso es trabajo de Captación 360. Si el problema es que la agenda, las fichas y el equipo están repartidos, antes de todo eso necesitas AiCoreMed, porque el portal se alimenta de esa información.
+
+**AiCoreMed** - La fuente de datos que el portal necesita para existir.
+
+**Captación 360** - Si lo que falta son pacientes, no confirmaciones.
+
+**AicoreLink** - Si el volumen de mensajes te desborda por varios canales.
+
+**iapo.cl** - Para ver el método completo antes de decidir.
+
+## Qué determina el precio
+
+El precio del portal se determina por cuántas clínicas lo usan y cuántas personas acceden, no por la cantidad de citas. Esto es a propósito: no cobramos por el uso que le das a tus pacientes.
+
+- Cantidad de sedes
+
+Cada sede se activa por separado, con sus propios pacientes.
+
+- Alcance de los documentos
+
+Si además de citas habilitas recetas y exámenes, el alcance del portal crece.
+
+- Integración de origen
+
+Alimentarlo desde AiCoreMed es lo más simple; desde otro sistema se evalúa caso a caso.
+
+Lo que no determina el precio: cuántos pacientes tengas, cuántas veces llamen ni cuántas horas agendas. Si el portal te ahorra veinte llamadas al día, ya está pagando su costo.
+
+## La pregunta que más nos hacen: ¿es seguro poner la ficha de un paciente en el celular?
+
+Es la pregunta correcta, y cualquiera que diga que sí sin explicar está vendiendo. Lo que hacemos es acotar el riesgo por diseño, en cuatro puntos concretos.
+
+Primero, no hay contraseña que se comparta ni que se roben. El acceso llega por el canal que ya está verificado en el teléfono del paciente. Nadie memoriza un usuario, nadie escribe una clave en un formulario de internet, nadie comparte credenciales con un familiar. La ausencia de formularios de acceso es justamente esa garantía.
+
+Segundo, el acceso se valida contra la ficha, no contra un formulario. Si el número no corresponde a un paciente tuyo, el portal no muestra nada. No hay un modo de prueba donde se vea información de otra persona.
+
+Tercero, el paciente ve un resumen, no la ficha completa. Decidimos de antemano que el portal no es el lugar donde vive el detalle clínico profesional. Reduce el daño potencial de un acceso indebido, no solo porque se lo advertimos.
+
+Cuarto, la infraestructura es nuestra y operamos bajo la Ley 19.628. Con cifrado en tránsito y reposo, y respaldos diarios cifrados.
+
+Y el punto final: puedes desactivar el acceso a un paciente en cualquier momento, y puedes decidir qué documentos son visibles para cuál paciente. Esa decisión es de la clínica, no del sistema.
+
+## ¿Cuántas llamadas al día te quita?
+
+Cuéntanos cuántas sedes tienes y si usas ficha clínica en algún sistema. En 20 minutos te decimos si el portal te sirve y cuánto trabajo te ahorra.
+
+================================================================================
+https://aicorebots.com/productos/aicorelink/
+================================================================================
+
+AicoreLink: WhatsApp, correo y redes en un solo lugar | Aicore Agency
+
+# AicoreLink: mensajería con agentes de IA
+
+Correo, WhatsApp y redes sociales en una sola bandeja
+
+Un solo lugar donde ver todo lo que te escriben, con un agente que redacta la respuesta y una persona que decide si se manda.
+
+En construcción
+
+## La consulta que llega por Instagram no está en tu correo
+
+Hoy tu negocio se escribe por cinco lados distintos y ninguno se habla con el otro. El correo de una persona que pide una cotización, el WhatsApp de otra que ya está lista para venir, el mensaje de Instagram que nadie vio, el chat de Facebook que quedó en tres semanas atrás. Todo junto suma un número que ningún negocio puede responder bien, y lo que se pierde son consultas que ya estaban decididas a comprar.
+
+El daño no es sólo la consulta perdida. También es que nadie sabe qué respondió cada uno, qué quedó pendiente, ni por qué un cliente que estaba listo no volvió a escribir. Se aprende de los resultados en lugar de mirar los resultados.
+
+AicoreLink junta esos canales en una sola bandeja y pone un agente al frente, no para hablar con tus clientes por ti, sino para que la respuesta esté escrita y esperando cuando la abras.
+
+## Para quién es, y para quién no
+
+Es para negocios que reciben consultas comerciales por varios canales a la vez y hoy las responden a ratos: estudios, agencias, consultoras y servicios profesionales con equipo chico. El perfil ideal es el de un negocio con dos o más personas escribiendo, y con volumen suficiente para que las respuestas tardías cuesten ventas.
+
+No es para el negocio que recibe tres mensajes al día. Con ese volumen, la bandeja unificada no se paga sola.
+
+Tampoco es para el negocio que ya tiene un CRM que le resuelve el problema. Si tus consultas entran, se reparten y se responden dentro de tu sistema actual, agregar otra bandeja es ruido.
+
+Y conviene decirlo claro: AicoreLink no es un constructor de bots. No es una automatización que se instala y se olvida, ni un script que conteste a todos. Es una bandeja de trabajo con un asistente que redacta, para que la decisión siga siendo de una persona.
+
+## Cómo funciona, paso por paso
+
+- Se conectan los canales que ya usas: WhatsApp Business, tu cuenta de correo y las redes sociales que te interesen. No se cambia el número que tus clientes ya tienen guardado.
+- Todo entra en una bandeja única, ordenado por cliente y no por canal. Ves la conversación completa de esa persona, no un fragmento suelto de cada lado.
+- El agente lee el contexto —qué te preguntó antes, qué le respondiste, en qué está tu negocio— y redacta una respuesta posible con tu tono, no con uno genérico.
+- Si la consulta es clara, la respuesta queda lista para que la apruebes con un clic. Si es ambigua o delicada, el agente no inventa: marca la conversación y te la entrega para que respondas tú.
+- Nada sale sin que alguien lo apruebe. Queda registro de qué se respondió, qué quedó pendiente y quién lo tomó.
+
+El resultado no es que las conversaciones dejen de ser tuyas. Es que dejas de empezar cada una desde cero, sin contexto y con prisa.
+
+## Qué incluye
+
+- Una bandeja, varios canales. WhatsApp, correo y redes sociales juntos, ordenados por cliente.
+- Respuestas redactadas. El agente propone la respuesta con el contexto de esa conversación y tu tono.
+- Historial del cliente. Lo que ya conversaste y lo que le respondiste, a la vista al contestar.
+- Pendientes que se ven. Sabes qué conversación quedó sin respuesta y hace cuánto.
+- Escalamiento a una persona. Cuando la consulta no es obvia, el agente la marca y te la pasa.
+- Registro de lo enviado. Cada respuesta queda guardada con quién la aprobó.
+
+## Qué no incluye
+
+### Los límites, por escrito
+
+No responde solo ni a tu nombre. El agente redacta. El envío lo apruebas tú. No hay modo automático en que una IA hable con tus clientes sin que alguien lo revise.
+
+No es un CRM. Es la capa donde se responde. Si necesitas registrar el embudo de ventas, las propuestas y sus etapas, eso es otra herramienta y hay que decirlo antes.
+
+No contesta llamadas ni voz. Si el volumen de llamadas es tu problema real, mira el Portal del Paciente o Captación 360, que atacan otro punto.
+
+No sincroniza tus cuentas de redes para publicar. Une las conversaciones que llegan por esos canales; no publica contenido ni gestiona campañas.
+
+No es un constructor de bots. Si quieres que un bot atienda solo y aprenda solo, este no es el producto.
+
+## Si tu problema son los pacientes, no los mensajes, esto no te sirve
+
+AicoreLink resuelve un problema de comunicación comercial. Si el tuyo es clínico, agregar un asistente de correo no lo toca.
+
+Si lo que se te desordena son las citas, las fichas y el equipo, lo que necesitas es AiCoreMed. Si el problema es que entran muy pocos pacientes, y no que se te pierdan los que ya te escribieron, el trabajo es de Captación 360. Y si lo que necesitas es aprender el método antes de contratar nada, iapo.cl es gratuito y tiene lo mismo que enseñamos en público.
+
+**AiCoreMed** - Para ordenar agenda y fichas clínicas.
+
+**Captación 360** - Para conseguir más pacientes, no más respuestas.
+
+**Portal del Paciente** - Para sacar las llamadas de confirmación de encima.
+
+**iapo.cl** - Para aprender el método sin contratar nada.
+
+## Qué determina el precio
+
+AicoreLink se habilita por cliente y se activa según los canales que conectes, no según la cantidad de conversaciones. Cobrar por mensaje incentiva justo lo contrario de lo que quieres: que el agente responda menos.
+
+- Canales conectados
+
+WhatsApp, correo y cada red social que sumes funcionan como una unidad.
+
+- Cuentas y usuarios
+
+El precio sube con las personas que leen y aprueban respuestas, no con los clientes que escriben.
+
+- Memoria del negocio
+
+Cuanto más contexto propio se le da, mejores son las propuestas de respuesta.
+
+Lo que no determina el precio: cuántos mensajes recibes. Un negocio con muchos mensajes y respuestas rápidas paga lo mismo que uno con pocos.
+
+## La pregunta que más nos hacen: ¿qué pasa si la IA le escribe algo que no era?
+
+Es la pregunta correcta, y la respuesta corta es esta: no se manda nada sin que una persona lo apruebe. Todo el diseño está pensado para que la IA nunca hable con tu cliente en tu nombre sin revisión.
+
+Nada sale automáticamente. El agente redacta; tú lees y apruebas. Ese es todo el mecanismo, y por eso funciona en negocios donde un error de tono cuesta más que el tiempo que ahorra.
+
+El tono se aprende de lo que ya escribiste. No inventa la voz de tu empresa: usa tus respuestas reales. Y si el agente no encuentra el tono con confianza, no propone, avisa.
+
+Las consultas ambiguas se devuelven. Si la pregunta pide un precio que no puedes fijar por chat, o toca algo delicado, el agente marca la conversación y te la entrega. No improvisa.
+
+Queda registro de quién aprobó qué. Si algo sale mal, no es un misterio: está en el historial, con la conversación y la persona que la aprobó.
+
+Y por último, lo más importante: AicoreLink está en construcción. No lo estamos vendiendo como si ya estuviera listo. Si quieres saber cuándo lo esté, escríbenos y te avisamos.
+
+## ¿Quieres que te avisemos cuando esté?
+
+Cuéntanos por qué canales te escriben hoy y cuántos mensajes quedan sin responder. Con eso te decimos si AicoreLink te sirve y en qué te ahorra tiempo.
+
+================================================================================
+https://aicorebots.com/productos/iapo/
+================================================================================
+
+iapo.cl: IA aplicada en español para copiar y adaptar | Aicore Agency
+
+# iapo.cl: IA aplicada en español, sin jerga
+
+Gratis, sin registro y sin venta detrás
+
+Tips, prompts y repositorios de inteligencia artificial en español. Lo que usamos a diario en Aicore, publicado en abierto y listo para copiar y adaptar a tu trabajo.
+
+Comunidad
+
+## ¿Esto es otro producto que me estás vendiendo?
+
+Es la pregunta más razonable que se puede hacer al ver iapo.cl listado junto a AiCoreMed y Captación 360 en la misma página. Y la respuesta es no, aunque la forma en que lo presentemos no ayude mucho.
+
+iapo.cl no es un producto. No se contrata, no tiene plan, no cobra, no pide tarjeta. Es un sitio abierto donde publicamos lo que usamos para trabajar, en el mismo español que hablamos, sin la jerga que suele acompañar a esto.
+
+Está en la lista de productos porque cumple la misma función que los demás: es la forma más directa de resolver una duda que antes te habría costado horas. La diferencia es que los otros se resuelven con un contrato y este se resuelve abriendo el enlace.
+
+## Para quién es, y para quién no
+
+Es para quienes quieren usar inteligencia artificial en su trabajo y no son programadores. El perfil es el de alguien que ya la usa un poco, sabe que le sirve, y se frustra con la mitad de las explicaciones que encuentra: las que vienen en inglés, o las que asumen que sabes cosas que no tiene por qué saber.
+
+También es para quien tiene una tarea concreta y repetitiva y quiere copiar algo que funciona en lugar de construirlo desde cero. La mayoría de lo que publicamos está pensado justo para eso.
+
+No es para quien busca un curso con certificado. No hay certificado, no hay horas cronometradas, ni evaluación al final.
+
+No es para quien necesita que alguien le resuelva un problema técnico específico en su empresa. Eso se conversa por WhatsApp como una asesoría, y se cotiza aparte.
+
+Y no es para quien quiere que el contenido aparezca filtrado por email. No hay lista de espera ni registro. Se entra y se lee.
+
+## Cómo funciona, que es bastante simple
+
+- Entras a iapo.cl. No hay muro, no hay formulario, no hay que crear una cuenta.
+- Eliges de qué te sirve: un prompt, un tip o un repositorio.
+- Lo copias y lo pruebas en tu propia herramienta. Lo que funciona te lo quedas; lo que no, lo descartas.
+- Si te sirve, sigues por tu cuenta. Nadie te escribe para venderte nada ni te pide referidos.
+
+Todo lo que hay ahí sale de trabajo real: lo usamos en Aicore antes de publicarlo. Esa es la diferencia con un directorio de recursos genéricos, y también la razón por la que no hay relleno.
+
+## Qué incluye
+
+- Prompts listos. Para atención al cliente, contenido, ventas y administración.
+- Skills y repositorios. Herramientas que puedes instalar o clonar hoy mismo.
+- Tips prácticos. Trucos cortos para sacarle más partido a la IA en el trabajo de todos los días.
+- Todo en español. Explicado sin jerga y listo para adaptar, no para traducir.
+
+## Qué no incluye
+
+### Los límites, por escrito
+
+No es soporte técnico. Si algo no te funciona, no hay un ticket que abrir ni alguien con una mesa de ayuda esperándote.
+
+No es un curso certificado. No hay diploma, ni horas, ni evaluación. Es contenido abierto, no un programa con aprobación.
+
+No es consultoría. Nada de lo que hay ahí viene con un diagnóstico de tu empresa ni con un plan para implementarlo. Eso se conversa aparte y se cobra.
+
+No es una comunidad privada con respuestas garantizadas. Publicamos lo que sabemos en abierto. Si haces una pregunta, la respuesta depende de que alguien la responda, no de un compromiso.
+
+No reemplaza un producto. Si tu problema es la agenda de tu clínica o la confirmación de tus citas, necesitas AiCoreMed o el Portal del Paciente, no más tutoriales.
+
+## Si necesitas que alguien lo haga por ti, esto no es lo que buscas
+
+Toda la diferencia está en quién hace el trabajo. iapo.cl te entrega el método. Los otros productos lo ejecutan contigo.
+
+Si tu problema es clínico y quieres que el sistema exista, empieza por AiCoreMed. Si el problema es que entran muy pocos pacientes, es Captación 360. Si lo que se te desordena son las llamadas para confirmar citas, el Portal del Paciente. Y si lo que se te desordena son las respuestas comerciales que escribes a mano todos los días, entonces AicoreLink.
+
+**AiCoreMed** - Agenda, fichas clínicas y equipo en un solo lugar.
+
+**Captación 360** - Para conseguir más pacientes, no más respuestas.
+
+**Portal del Paciente** - Para sacar las llamadas de confirmación de encima.
+
+**AicoreLink** - Cuando el problema son las respuestas comerciales.
+
+## El precio, que es el que cuesta responder
+
+iapo.cl no tiene precio porque no se contrata. No hay planes, ni niveles, ni cotización, ni botón de pagar.
+
+Cuesta cero, sin trampas: no hay registro, no hay tarjeta, no hay prueba que se termine sola. Si alguien te ofrece acceso a iapo.cl con una condición, no es iapo.cl.
+
+Lo que sí tiene precio son los productos de esta misma página. Publicamos el método gratis por dos razones concretas: es lo correcto, y es la forma más honesta de demostrar de qué estamos hablando antes de que alguien confíe en algo más serio que una promesa.
+
+## Entonces, ¿en qué me beneficia si todo está gratis?
+
+En una sola cosa, y es verificable por ti mismo en cinco minutos: en la calidad. Si lo que publicamos fuera peor que lo que vendemos, la página gratis te serviría como referencia para descartar la versión de pago. Si es bueno, ya tienes la manera de juzgar el resto.
+
+Es la forma menos defensiva de demostrar criterio, y no requiere que nos creas. Abres el sitio, lees, te das cuenta de si sabes o no, y de ahí saques la conclusión que te parezca.
+
+Y para que quede dicho: no usamos el contenido gratuito como cebo para una llamada de venta. Si lo publicamos, es para que lo uses. Si después quieres que lo hagamos por ti, ahí lo decides tú, con la información en la mano.
+
+## Entra, lee y copia
+
+No hay registro, no hay tarjeta y no hay llamada de venta detrás. Si te sirve, úsalo; si no, sigue con lo tuyo.
 
 ================================================================================
 https://aicorebots.com/faq/
