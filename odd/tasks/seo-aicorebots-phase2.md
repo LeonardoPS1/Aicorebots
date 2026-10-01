@@ -56,16 +56,16 @@ This copy is derived from existing site content, not from direct hands-on produc
 
 ## Tasks
 
-- [ ] **T01** Generate the five page-specific OG images with PIL and verify dimensions.
-- [ ] **T02** Add the new stylesheet for product subpages.
-- [ ] **T03** `productos/aicoremed/index.html`
-- [ ] **T04** `productos/captacion-360/index.html`
-- [ ] **T05** `productos/portal-paciente/index.html`
-- [ ] **T06** `productos/aicorelink/index.html`
-- [ ] **T07** `productos/iapo/index.html`
-- [ ] **T08** `productos/index.html` — `ItemList` repointed, intros added, anchors preserved.
-- [ ] **T09** `sitemap.xml` — five new URLs with real `lastmod`.
-- [ ] **T10** `llms.txt` / `llms-full.txt` — register the new routes.
+- [x] **T01** Generate the five page-specific OG images with PIL and verify dimensions.
+- [x] **T02** Add the new stylesheet for product subpages.
+- [x] **T03** `productos/aicoremed/index.html`
+- [x] **T04** `productos/captacion-360/index.html`
+- [x] **T05** `productos/portal-paciente/index.html`
+- [x] **T06** `productos/aicorelink/index.html`
+- [x] **T07** `productos/iapo/index.html`
+- [x] **T08** `productos/index.html` - `ItemList` repointed, intros added, anchors preserved.
+- [x] **T09** `sitemap.xml` - five new URLs with real `lastmod`.
+- [x] **T10** `llms.txt` / `llms-full.txt` - register the new routes.
 - [ ] **T11** Static verification pass.
 - [ ] **T12** Commit and push.
 
@@ -84,13 +84,18 @@ This copy is derived from existing site content, not from direct hands-on produc
 
 ## Verification evidence
 
-Recorded per task below as each one closes.
+`check_phase2.py` — ALL CHECKS PASSED across the five routes. Covers canonical, description length, JSON-LD shape, breadcrumb depth, prose word count, in-page anchors, foreign-character hygiene, glued words and relative-path resolution.
+
+`llms-full.txt` structure re-verified after insertion — 13 route headings (8 original + 5 new), all 22 separators exactly 80 chars, every section `SEP / URL / SEP`, the two pre-existing inline URL references preserved, no CJK/Cyrillic, `¿` intact.
 
 ## Progress log
 
 - 2026-10-01 — nginx warning fixed and pushed as `cc58d0c` (`fix(nginx): drop duplicate text/html from gzip_types`). Awaiting container re-verify.
 - 2026-10-01 — Feature document created. Directories for the five routes created. No source written yet.
+- 2026-10-01 — T01-T07 closed. Five pages written (1129-1152 prose words each, descriptions 152-158 chars) plus the shared subpage stylesheet. Page prose needed a corruption sweep: the first drafts carried CJK/Cyrillic fragments and glued words, caught by two checks added to the validator (foreign-character hygiene, glued-word pattern).
+- 2026-10-01 — Title form decided: `<Name>: <benefit clause> | Aicore Agency`, no literal `Producto:` prefix, applied identically to all five.
+- 2026-10-01 — T08-T10 closed in `53105a4`, `eab58af`, `6d26005`. Hub `ItemList` repointed to canonical routes, five `Ver página completa` actions added, sitemap lists all five with `lastmod` 2026-10-01, `llms.txt` already carried the five routes and needed no change, `llms-full.txt` gained all five page bodies (552 lines) and its stale "routes not published" header note was corrected.
 
 ## Next step
 
-T01 — generate the five OG images.
+T11 — static verification pass, then T12 push and container re-verify.
