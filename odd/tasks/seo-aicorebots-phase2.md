@@ -11,7 +11,7 @@
 
 Phase 1 shipped enriched structured data, `llms.txt`, a real sitemap and legacy 301s on a single-route site. The five products exist only as anchors inside `/productos/`, so none of them can rank or be cited on their own terms. Phase 2 gives each product a real route with its own copy, canonical, schema and social image.
 
-Side task already closed in this feature: the `duplicate MIME type "text/html"` nginx warning (commit `cc58d0c`).
+Side task closed in this feature: the `duplicate MIME type "text/html"` nginx warning (commit `cc58d0c`), re-verified against the live container on 2026-10-02.
 
 ## Objective
 
@@ -92,7 +92,14 @@ This copy is derived from existing site content, not from direct hands-on produc
 
 `verify_prod.py` — 125 checks against the live container, ALL PRODUCTION CHECKS PASSED. Confirms criteria 1, 2, 3, 4, 6, 7, 8, 9 against served bytes rather than disk: all five routes HTTP 200, descriptions 153-158 chars, canonicals absolute and self-referential, each `og:image` its own asset, `Service` + `WebPage` + `BreadcrumbList` present with a three-level breadcrumb, every relative asset 200, hub carries five route links plus five surviving anchors plus five `ItemList` canonicals, sitemap at 11 URLs all resolving, `llms-full.txt` at 22 separators of 80 and 13 route headings.
 
-Acceptance criterion 10 (`nginx -t` with no warnings) is still unverified: it needs container exec, and the VPS credential used earlier in this session was shredded as part of the hygiene sweep and is still pending rotation. It closes `cc58d0c`.
+Acceptance criterion 10 (`nginx -t` with no warnings) is **verified**, run by the maintainer inside the live `aicorebots` container via the Dokploy terminal:
+
+```
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+```
+
+No `[warn]` and no duplicate-MIME notice. This closes `cc58d0c`. The whole feature is closed: all twelve tasks and all ten acceptance criteria verified, the last one against the running container.
 
 ## Progress log
 
@@ -107,9 +114,12 @@ Acceptance criterion 10 (`nginx -t` with no warnings) is still unverified: it ne
 - 2026-10-01 — T11 closed. `verify_site.py` wrote 519 checks over the whole repo and passed: every internal link and asset path in every page resolves to a real file, every sitemap `<loc>` resolves, every route in both AI-readable files resolves, and the hub's five `#<slug>` anchors survive alongside the new canonical links.
 - 2026-10-01 — Credential hygiene sweep. Ten temp scripts under the harness temp directory carried a hardcoded VPS credential as a literal. All ten were shredded with `os.urandom()` overwrites plus `fsync` and deleted, never printing the value; a re-scan found zero remaining. `git log -p --all` and `git ls-files` were scanned with the same pattern and found nothing, so the credential never entered the repository. The value may still exist in harness transcripts or shell logs — rotating the secret is the remaining action.
 
+- 2026-10-02 — Acceptance criterion 10 closed. `nginx -t` in the live container returns `syntax is ok` / `test is successful` with no warnings, which also closes `cc58d0c`. All twelve tasks and all ten acceptance criteria are now verified, the last one against the running container rather than against disk.
+- 2026-10-02 — Origin gzip confirmed from the container access log: a `Wget` health check sends no `Accept-Encoding` and receives 22892 bytes uncompressed, while a client that accepts gzip receives 7626 for the same page. nginx compresses HTML at origin, not only Cloudflare.
+- 2026-10-02 — Deploy-signal gotcha: an access-log tail cannot close a config check. The container booted at 10:13 and the available log window started at 23:50, so the nginx startup block — the only place `[warn]` and the config-test result appear — was thirteen hours outside the pasted window. A clean tail proves runtime health, not configuration validity.
+
 ## Next step
 
-All twelve tasks closed. Two items remain outside the feature, both owned by the maintainer:
+The feature is closed: all twelve tasks and all ten acceptance criteria verified, criterion 10 against the running container.
 
-1. Rotate the VPS credential. It never entered the repository, and the ten temp scripts that held it were shredded, but the literal may survive in harness transcripts or shell history. Rotation is what actually closes the exposure.
-2. Verify acceptance criterion 10 by running `nginx -t` inside the deployed container, which also closes `cc58d0c`. Needs container access, currently unavailable because of item 1.
+One item remains outside the feature and belongs to the maintainer: rotate the VPS credential. It never entered the repository, and the ten temp scripts that held it were shredded, but the literal may survive in harness transcripts or shell history. Rotation is what actually closes that exposure.
